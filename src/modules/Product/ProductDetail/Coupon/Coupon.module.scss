@@ -1,0 +1,63 @@
+.coupon_wrapper {
+  position: relative;
+}
+
+.button_apply {
+  cursor: pointer;
+  padding: 10px 20px;
+  position: absolute;
+  color: white;
+  background: black;
+  right: 20px;
+  bottom: 10px;
+}
+
+.outer {
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+}
+
+.inner {
+  -webkit-mask-image: radial-gradient(
+    circle at 10px 10px,
+    transparent 10px,
+    red 10px
+  );
+  -webkit-mask-position: -10px -10px;
+  width: 100px;
+  height: 40px;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 36, 106, 1) 0%,
+    rgba(235, 95, 140, 1) 100%
+  );
+}
+
+.inner i {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.content {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 0 10px;
+}
+
+.des {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  font-size: 16px;
+  transform: translate(0, -50%);
+  font-weight: bold;
+}

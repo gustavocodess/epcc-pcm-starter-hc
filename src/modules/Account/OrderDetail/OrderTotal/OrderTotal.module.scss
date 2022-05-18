@@ -1,0 +1,33 @@
+.order-total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+
+    &-table {
+        width: 300px;
+
+        &-row {
+            display: flex;
+
+            &:first-child {
+                border-bottom: 2px solid black;
+            }
+
+            &:last-child {
+                border-top: 2px solid black;
+
+                .order-total-table-cell {
+                    font-weight: bold;
+                }
+            }
+        }
+
+        &-cell {
+            width: 50%;
+            text-align: end;
+            line-height: 30px;
+            font-size: 14px;
+            color: black;
+        }
+    }
+}

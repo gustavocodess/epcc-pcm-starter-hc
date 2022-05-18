@@ -1,0 +1,36 @@
+.root {
+  width: 100%;
+  margin-top: 1.5rem;
+  $this: &;
+  &__form {
+    border: 1px solid #888;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-style: none;
+  }
+  &__submit {
+    margin-top: 1rem;
+    margin-left: auto !important;
+    display: block !important;
+    background: black !important;
+    color: white !important;
+    &:hover {
+      background: white !important;
+      border: 1px solid black !important;
+      color: black !important;
+    }
+    &:disabled {
+      background: #d3d3d3 !important;
+      border: 1px solid #cdcdcd !important;
+      color: #888 !important;
+    }
+  }
+  &__success {
+    margin-top: 1rem;
+    font-weight: bold;
+    align-self: flex-start;
+    #{$this}__content {
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "src/theme/responsive.scss";
+
+.root {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding-bottom: 9rem;
+  &__rating-container {
+    margin-top: 6rem;
+  }
+  @media only screen and (max-width: $SM) {
+    padding: 0rem 1rem 6rem;
+  }
+}

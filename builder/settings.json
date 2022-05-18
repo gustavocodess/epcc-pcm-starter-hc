@@ -1,0 +1,46 @@
+{
+  "customTargetingAttributes": {
+    "product": {
+      "type": "ElasticpathPCMProduct"
+    },
+    "cartItems": {
+      "type": "ElasticpathPCMProductHandle"
+    }
+  },
+  "settings": {
+    "plugins": {
+    },
+    "apps": {
+      "Klaviyo": {},
+      "Postscript": {},
+      "Yotpo": {},
+      "Rebuy": {},
+      "Stamped_io": {}
+    },
+    "allowBuiltInComponents": true,
+    "componentsOnlyMode": false
+  },
+  "type": "space",
+  "siteUrl": "https://epcc-pcm-starter-kit.vercel.app",
+  "name": "demo-epcc-pcm",
+  "loadPlugins": [
+    "@builder.io/plugin-elasticpath-pcm"
+  ],
+  "id": "1fa6810c36c54e87bfe1a6cc0f0be906",
+  "@version": 6,
+  "cloneInfo": {
+    "contentIdMap": {
+      "cd40e493a5bf4cc5a92dc9c53aadeef4": "d5a4b5c701ee4841b13625e6b6565923",
+      "b7a20cbb735b46588ed3b3c64402d2b6": "24979195a7534dc28a9b639236a0e047",
+      "bb913be841e9467087308a4e45886fd3": "6474b72ca2d04abfa7399bd73d15b54f",
+      "c5b30be9be7f49c1a2823b4c79cd4374": "ba183adf259d4a55baba96308091ceac",
+      "35722575455a4482bdb87da17336b2c7": "963fa66cb51e4f7b8478efe0343cc3a7",
+      "18c2d3086cae4dd795a79549cea65333": "c40f7d2aa36047648d79753c35813a47"
+    },
+    "modelIdMap": {
+      "561d9b948ab94b5a8602fb628cb4857d": "cf2c4504a33e4ae5a88d06a3442a8822",
+      "baff7c61965e4a3ba48c112039e14170": "1fef07fba60c456f8e43c782b23ddccb",
+      "ec5817c6b6f64c25a5fad8900fcba2bc": "8b278e2a46c6433cbd2fdc2c87b94086"
+    }
+  }
+}

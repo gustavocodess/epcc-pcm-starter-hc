@@ -1,0 +1,71 @@
+{
+  "createdBy": "XNHR3dCzCSXqg2Sumbh99KBD3XC2",
+  "createdDate": 1647913910570,
+  "data": {
+    "inputs": [],
+    "title": "test grid products",
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-94d8ce143b7648bbba17bd58657deb10",
+        "component": {
+          "name": "Custom Product Grid",
+          "options": {
+            "products list": [
+              "28e9c6df-6c8f-453d-907b-bdd363e5ba80",
+              "01446c13-cfc9-4bed-b22c-65edaf4268b3",
+              "dabf5fd2-549c-42c1-b73a-576297989782"
+            ]
+          }
+        },
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "marginTop": "20px"
+          }
+        }
+      }
+    ],
+    "url": "/test-grid-products",
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    }
+  },
+  "id": "660aabedab3c47389f2d6f94ae1bc6fb",
+  "lastUpdatedBy": "XNHR3dCzCSXqg2Sumbh99KBD3XC2",
+  "meta": {
+    "hasLinks": false,
+    "kind": "page",
+    "shopifyDomain": "https://builder-ecom.myshopify.com",
+    "needsHydration": false
+  },
+  "modelId": "cf7f053734da4ecda10a8cbfebde458c",
+  "name": "test grid products",
+  "published": "published",
+  "query": [
+    {
+      "@type": "@builder.io/core:Query",
+      "operator": "is",
+      "property": "urlPath",
+      "value": "/test-grid-products"
+    }
+  ],
+  "testRatio": 1,
+  "variations": {},
+  "lastUpdated": 1648651285125,
+  "screenshot": "https://cdn.builder.io/api/v1/image/assets%2F1fa6810c36c54e87bfe1a6cc0f0be906%2F3d193bc15a64430088dab84c0547c989",
+  "firstPublished": 1648047867856,
+  "rev": "w6eoo27ab2",
+  "@originOrg": "1fa6810c36c54e87bfe1a6cc0f0be906",
+  "@originContentId": "35722575455a4482bdb87da17336b2c7",
+  "@originModelId": "ec5817c6b6f64c25a5fad8900fcba2bc"
+}

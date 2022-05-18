@@ -1,0 +1,65 @@
+@import "../../../theme/template.scss";
+@import "src/theme/common.scss";
+
+.signin-container {
+  width: 100%;
+  margin: 1.25rem 0;
+  @extend .flex-center-column;
+  &__col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // align-items: center;
+    width: 100%;
+
+    .signin-title {
+      font-weight: bold;
+      font-size: $sizeMediumLarger;
+    }
+
+    .signin-subtitle {
+      margin: 5px 0 15px;
+      font-size: $sizeMedium;
+    }
+
+    .form-input {
+      height: 50px;
+    }
+
+    .form-button {
+      text-align: center;
+      padding: 15px 0;
+      background-color: black;
+      font-weight: 500;
+      color: white;
+      cursor: pointer;
+    }
+
+    .form-button-group {
+      margin-top: 10px;
+    }
+
+    .another-login__button {
+      @extend .flex-center;
+      width: 100%;
+      cursor: pointer;
+
+      border: 1px solid black;
+      color: black;
+      background-color: white;
+      margin-bottom: 1.5rem;
+      font-weight: 700;
+      font-size: 0.75rem;
+      padding: 0.75rem;
+
+      .img {
+        width: 1.25rem;
+        margin-bottom: 0.25rem;
+        margin-right: 0.75rem;
+
+        height: 1.25rem;
+        object-fit: contain;
+      }
+    }
+  }
+}

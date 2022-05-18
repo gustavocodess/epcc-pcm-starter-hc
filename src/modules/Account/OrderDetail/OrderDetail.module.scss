@@ -1,0 +1,11 @@
+@import "./../../../theme/template.scss";
+
+.order-detail {
+  &-title {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+    color: black;
+    text-transform: uppercase;
+  }
+}

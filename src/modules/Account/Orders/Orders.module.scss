@@ -1,0 +1,53 @@
+@import "./../../../theme/template.scss";
+
+.orders {
+  .orders-title {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+    color: black;
+    text-transform: uppercase;
+    width: 80%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #979797;
+  }
+  .orders-links {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 45px;
+
+    .orders-links__text {
+      font-size: 16px;
+      line-height: 19px;
+      display: inline-block;
+      padding: 0 7px;
+      position: relative;
+      color: black;
+      text-decoration: underline;
+
+      &::after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 16px;
+        background: #979797;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+      }
+
+      &:first-child,
+      &:last-child {
+        &::after {
+          display: none;
+        }
+      }
+
+      &:first-child {
+        padding-left: 0;
+        text-decoration: none;
+      }
+    }
+  }
+}

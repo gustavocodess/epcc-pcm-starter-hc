@@ -1,0 +1,52 @@
+@import "./../../../theme/template.scss";
+
+.root {
+  margin: {
+    top: 100px;
+    bottom: 80px;
+  }
+  padding: {
+    bottom: 4rem;
+  }
+  $this: &;
+  &__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  &__slider {
+    margin: 0.5rem -1rem 0rem;
+    position: relative;
+    #{$this}__arrow-left {
+      top: -50px;
+      left: -40px;
+      position: absolute;
+      @extend .flex-center;
+      cursor: pointer;
+      height: 50px;
+      width: 45px;
+      z-index: 1;
+      display: block !important;
+    }
+    #{$this}__arrow-right {
+      top: -50px;
+      right: -40px;
+      position: absolute;
+      @extend .flex-center;
+      cursor: pointer;
+      height: 50px;
+      width: 45px;
+      z-index: 1;
+      display: block !important;
+    }
+  }
+}
+
+.dots {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.25rem;
+  margin-top: 3rem;
+  background-color: #c4c3c3;
+}

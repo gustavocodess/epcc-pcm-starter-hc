@@ -1,0 +1,30 @@
+$textColor: black;
+
+.root {
+  margin: 0rem 1rem;
+  padding-bottom: 0.25rem;
+  &__product {
+    font-size: 14px;
+    &-name {
+      color: $textColor;
+      font-weight: bold;
+      margin: 1.25rem 0rem 0.75rem;
+      text-align: center;
+      font: {
+        weight: 800;
+        size: 22px;
+      }
+    }
+    &-link {
+      font: {
+        size: 14px;
+        weight: normal;
+      }
+      text: {
+        align: center;
+        decoration: underline;
+      }
+      color: $textColor;
+    }
+  }
+}

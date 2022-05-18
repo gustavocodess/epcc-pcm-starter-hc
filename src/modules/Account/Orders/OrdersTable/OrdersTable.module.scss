@@ -1,0 +1,93 @@
+@import "../../../../theme/template.scss";
+
+.orders-table {
+  border: 1px solid #979797;
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+  font-size: 14px;
+
+  &-cell {
+    vertical-align: middle;
+    border-bottom: 1px solid #979797;
+    padding: 15px;
+  }
+
+  &-thead {
+    th {
+      padding: 15px;
+      vertical-align: middle;
+      border-bottom: 1px solid #979797;
+      font-weight: bold;
+
+      &:first-child {
+        padding-left: 30px;
+      }
+
+      &:last-child {
+        padding-right: 30px;
+      }
+    }
+  }
+
+  tr {
+    .orders-table-cell {
+      &:first-child {
+        padding-left: 30px;
+      }
+
+      &:last-child {
+        padding-right: 30px;
+      }
+    }
+  }
+
+  .order-link {
+    line-height: 36px;
+    text-decoration: underline;
+  }
+
+  .order-item-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .order-status {
+    display: flex;
+    align-items: center;
+
+    &__icon {
+      width: 30px;
+      height: 30px;
+      margin-right: 5px;
+    }
+
+    &__text {
+      font-weight: 500;
+    }
+  }
+
+  .reorder-btn {
+    padding: 6px 36px;
+    text-transform: uppercase;
+    color: white;
+    background: #ff246a;
+  }
+
+  .reorder-line {
+    height: 2px;
+    width: 11px;
+    background: black;
+    margin: 0 auto;
+  }
+}
+
+.paging {
+  margin-bottom: 1.5rem !important;
+}
+
+.quantity {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 18px;
+}

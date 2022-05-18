@@ -1,0 +1,80 @@
+@import "./../../../theme/template.scss";
+.assurance {
+    @extend .flex-center-column;
+  width: 100%;
+
+  .assurance__content {
+    width: 100%;
+    @extend .flex-center;
+    .assurance__content__item {
+    
+      margin-top: 2.5rem;
+      background-color: rgb(249, 249, 249);
+      @extend .flex-between;
+      padding: 0 3rem 0 3rem;
+  
+      width: 100%;
+      .assurance__content__item__col {
+        width: 100%;
+        .assurance__content__item__col-item {
+            @extend .flex-center-column;
+          width: 100%;
+          text-align: center;
+          .assurance__content__item__col__des__parent-item {
+              width: 100%;
+              @extend .flex-center;
+              text-align: center;
+            .assurance__content__item__col__des-item {
+              color: grey;
+              @extend .flex-center;
+              text-align: center;
+              width: 9rem;
+              font-size: 0.75rem;
+            }
+          }
+
+          .assurance__content__item__col__title-item {
+            color: black;
+            font-weight: 700;
+            margin-top: 1rem;
+            margin-bottom: 0.75rem;
+            font-size: 1rem;
+          }
+          .assurance__content__item__col__icon-item {
+            font-size: 1.75rem;
+            color: black;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+  .assurance__title {
+    @extend .flex-center;
+    width: 100%;
+    color: black;
+    font-weight: 700;
+    margin-top: 4rem;
+    font-size: 2rem;
+  }
+}
+.assurance__content__item__col-img {
+  width: 8rem;
+  height: 8rem;
+  cursor: pointer;
+  object-fit: contain;
+}
+.assurance__content__item__col__left-img {
+  width: 9rem;
+  height: 9rem;
+  cursor: pointer;
+  padding-bottom: 1.5rem;
+  object-fit: contain;
+}
+.assurance__content__item__col__right-img {
+  width: 13rem;
+  height: 13rem;
+  cursor: pointer;
+  padding-top: 0.5rem;
+  object-fit: contain;
+}

@@ -1,0 +1,79 @@
+{
+  "createdBy": "XNHR3dCzCSXqg2Sumbh99KBD3XC2",
+  "createdDate": 1647887222485,
+  "data": {
+    "inputs": [],
+    "title": "test-product",
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-4825fb50617f4cdd9bbd5e6e548fddb5",
+        "component": {
+          "name": "Custom Product Box",
+          "options": {
+            "product": {
+              "@type": "@builder.io/core:Request",
+              "request": {
+                "url": "https://api.moltin.com/pcm/products/63f38142-f326-4bc2-b28e-a8b519fba901",
+                "headers": {
+                  "Authorization": "Bearer ff94a626df9572180639c662f2b8a3f6b8aa37a6"
+                },
+                "method": "GET"
+              },
+              "options": {
+                "product": "63f38142-f326-4bc2-b28e-a8b519fba901"
+              }
+            }
+          }
+        },
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "marginTop": "20px"
+          }
+        }
+      }
+    ],
+    "url": "/test-product",
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    }
+  },
+  "id": "0f90837388e745a2a877f5cd48cbc03f",
+  "lastUpdatedBy": "XNHR3dCzCSXqg2Sumbh99KBD3XC2",
+  "meta": {
+    "hasLinks": false,
+    "kind": "page",
+    "shopifyDomain": "https://builder-ecom.myshopify.com",
+    "needsHydration": false
+  },
+  "modelId": "cf7f053734da4ecda10a8cbfebde458c",
+  "name": "test-product",
+  "published": "published",
+  "query": [
+    {
+      "@type": "@builder.io/core:Query",
+      "operator": "is",
+      "property": "urlPath",
+      "value": "/test-product"
+    }
+  ],
+  "testRatio": 1,
+  "variations": {},
+  "lastUpdated": 1648651320538,
+  "screenshot": "https://cdn.builder.io/api/v1/image/assets%2F1fa6810c36c54e87bfe1a6cc0f0be906%2Fb6e14e69152244e7beda255dfc5292af",
+  "firstPublished": 1647887314187,
+  "rev": "w6eoo27ab2",
+  "@originOrg": "1fa6810c36c54e87bfe1a6cc0f0be906",
+  "@originContentId": "18c2d3086cae4dd795a79549cea65333",
+  "@originModelId": "ec5817c6b6f64c25a5fad8900fcba2bc"
+}

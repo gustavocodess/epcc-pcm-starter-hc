@@ -1,0 +1,61 @@
+{
+  "createdBy": "XNHR3dCzCSXqg2Sumbh99KBD3XC2",
+  "createdDate": 1647531561296,
+  "data": {
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-b48dd794980d470dbd4624ed29fe9d85",
+        "component": {
+          "name": "Text",
+          "options": {
+            "text": "<p>Hello world</p>"
+          }
+        },
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "lineHeight": "normal",
+            "height": "auto",
+            "textAlign": "center",
+            "marginLeft": "auto",
+            "marginRight": "auto"
+          }
+        }
+      }
+    ],
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    }
+  },
+  "id": "6474b72ca2d04abfa7399bd73d15b54f",
+  "lastUpdatedBy": "4FFFg0MNRJT0z0nW4uUizDHfHJV2",
+  "meta": {
+    "hasLinks": false,
+    "kind": "component",
+    "shopifyDomain": "https://builder-ecom.myshopify.com",
+    "needsHydration": false
+  },
+  "modelId": "1fef07fba60c456f8e43c782b23ddccb",
+  "name": "New Announcement bar",
+  "published": "published",
+  "query": [],
+  "testRatio": 1,
+  "variations": {},
+  "lastUpdated": 1647977508133,
+  "screenshot": "https://cdn.builder.io/api/v1/image/assets%2F1fa6810c36c54e87bfe1a6cc0f0be906%2Ff753c1ca651844eea110e55c4516b991",
+  "firstPublished": 1647532006344,
+  "rev": "o8i3ftqjkus",
+  "@originOrg": "1fa6810c36c54e87bfe1a6cc0f0be906",
+  "@originContentId": "bb913be841e9467087308a4e45886fd3",
+  "@originModelId": "baff7c61965e4a3ba48c112039e14170"
+}

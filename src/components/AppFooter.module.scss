@@ -1,0 +1,490 @@
+@import "./../theme/template";
+.footer {
+  background-color: rgb(250, 244, 234);
+  width: 100%;
+  height: 22.5rem;
+  margin-top: 9rem;
+  .footer__content {
+    @extend .flex-center-column;
+    width: 100%;
+    .footer__content__bottom {
+      @extend .flex-start;
+      padding: 0 4rem;
+      width: 100%;
+      div {
+        margin-right: 2rem;
+        color: grey;
+        font-weight: 700;
+        margin-top: 0.75rem;
+        font-size: 0.75rem;
+      }
+    }
+    .footer__content__main {
+      @extend .flex-between;
+      padding: 0 4rem;
+      margin-bottom: 1rem;
+
+      border-bottom: 1px solid rgb(230, 217, 217);
+      width: 100%;
+      .footer__content__main-col {
+        width: 100%;
+        .footer__content__main__right-col {
+          @extend .flex-between;
+          width: 100%;
+          .footer__content__main__right__col-col {
+            width: 100%;
+
+            .footer__content__main__right__col__img-col {
+              object-fit: fill;
+              width: 100%;
+              border-top-left-radius: 1rem;
+              border-top-right-radius: 1rem;
+              height: 7.5rem;
+            }
+          }
+        }
+        .footer__content__main__title-col {
+          @extend .flex-start-column;
+          width: 100%;
+          .footer__content__main__title__follow-col {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+          }
+          .footer__content__main__title__center-col {
+            @extend .flex-between;
+            width: 100%;
+            .footer__content__main__title__center__parent-col {
+              width: 100%;
+              .footer__content__main__title__center__parent__appstore-col {
+                background-color: black;
+                color: white;
+                margin-top: 1rem;
+                @extend .flex-start;
+                border-radius: 0.25rem;
+                padding: 0.5rem;
+                width: 100%;
+                .footer__content__main__title__center__parent__appstore__text-col {
+                  @extend .flex-start-column;
+                  width: 100%;
+                  margin-left: 0.5rem;
+
+                  .footer__content__main__title__center__parent__appstore__text__parent-col {
+                    font-size: 0.65rem;
+                    color: white;
+                    font-weight: 700;
+                  }
+                  div {
+                    color: white;
+                    font-size: 0.5rem;
+                  }
+                }
+                .footer__content__main__title__center__parent__appstore__img-col {
+                  object-fit: contain;
+
+                  width: 1.35rem;
+                  height: 1.35rem;
+                }
+              }
+            }
+          }
+          .footer__content__main__title__row-col {
+            @extend .flex-between;
+            margin-top: 1rem;
+            width: 100%;
+            .footer__content__main__title__icon-col {
+              font-size: 1rem;
+              font-weight: 700;
+              color: black;
+            }
+          }
+          div {
+            color: black;
+            font-size: 0.75rem;
+
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    .footer__content-top {
+      transform: translateY(-50%);
+      @extend .flex-between;
+      width: 100%;
+      background-color: black;
+      padding: 3rem 4rem;
+      .footer__content__item-top {
+        width: 100%;
+        .footer__content__item__right-top {
+          @extend .flex-between;
+          width: 100%;
+          .footer__content__item__right__col-top {
+            width: 100%;
+            cursor: pointer;
+            div {
+              background-color: rgb(205, 67, 90);
+              color: white;
+              padding: 0.625rem 1rem;
+              width: 100%;
+              @extend .flex-center;
+              text-align: center;
+              font-size: 0.75rem;
+            }
+            .footer__content__item__right__input-top {
+              padding: 0.5rem 1rem;
+              color: grey;
+              width: 100%;
+              font-size: 0.75rem;
+            }
+          }
+        }
+        .footer__content__item__left-top {
+          @extend .flex-start-column;
+          width: 100%;
+          .footer__content__item__left__des-top {
+            display: flex;
+            justify-content: flex-start;
+            align-content: center;
+            width: 100%;
+          }
+          div {
+            color: white;
+          }
+        }
+      }
+    }
+    .footer__content-hard {
+      position: fixed;
+      right: 0rem;
+      bottom: 25rem;
+      .footer__content__back-hard {
+        cursor: pointer;
+        div:nth-child(2) {
+          p {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
+.chat {
+  right: 0;
+  bottom: 0;
+  background-color: rgb(205, 67, 90);
+  padding: 1rem;
+  cursor: pointer;
+  margin: 0 1rem 1rem 0;
+  border-radius: 50%;
+  position: fixed;
+  .chat__icon {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .footer__content-hard {
+    display: flex;
+    z-index: 99999;
+    justify-content: flex-start;
+    align-items: center;
+
+    .footer__content__back-hard {
+      font-size: 0.75rem;
+      margin-left: 1.75rem;
+      width: 2.5rem;
+      cursor: pointer;
+
+      div {
+        color: black;
+      }
+    }
+    .footer__content__title-hard {
+      background-color: black;
+      font-size: 0.75rem;
+      color: white;
+      padding: 0.75rem 4.5rem;
+      cursor: pointer;
+      font-weight: 700;
+    }
+  }
+}
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+  .footer__content-hard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 99999;
+
+    .footer__content__back-hard {
+      font-size: 0.75rem;
+
+      margin-left: 1.75rem;
+      width: 2.5rem;
+      cursor: pointer;
+
+      div {
+        color: black;
+      }
+    }
+    .footer__content__title-hard {
+      background-color: black;
+      font-size: 0.75rem;
+      color: white;
+      padding: 0.75rem 4.5rem;
+      cursor: pointer;
+      font-weight: 700;
+    }
+  }
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+  .footer__content__item__left-top {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .footer__content__item__right__input-top {
+    margin-bottom: 1rem;
+  }
+  .footer {
+    background-color: white;
+  }
+  .footer__content__main__title__icon-col {
+    margin-bottom: 1rem;
+  }
+  .footer__content__main__title__center__parent__appstore__text-col {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+
+    flex-direction: column;
+    div {
+      display: flex;
+      justify-content: flex-start;
+      align-content: center;
+      width: 100%;
+    }
+  }
+  .footer__content__main__title__center-col {
+    margin-bottom: 2rem;
+  }
+  .footer__content__main__right__col__img-col {
+    margin-bottom: 2rem;
+  }
+  .footer__content__bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin-bottom: 2rem;
+    width: 100%;
+    flex-direction: column;
+    div {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      width: 100%;
+    }
+  }
+  .footer__content-hard {
+    display: flex;
+    z-index: 99999;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    .footer__content__back-hard {
+      font-size: 0.75rem;
+
+      margin-left: 1.75rem;
+      width: 2.5rem;
+      cursor: pointer;
+      // transform: rotate(90deg);
+      div {
+        color: black;
+      }
+    }
+    .footer__content__title-hard {
+      background-color: black;
+      font-size: 0.75rem;
+      color: white;
+      padding: 0.75rem 4.5rem;
+      cursor: pointer;
+      font-weight: 700;
+    }
+  }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+  .footer__content-hard {
+    display: flex;
+    z-index: 99999;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    .footer__content__back-hard {
+      font-size: 0.75rem;
+
+      margin-left: 1.75rem;
+      width: 2.5rem;
+      cursor: pointer;
+      // transform: rotate(90deg);
+      div {
+        color: black;
+      }
+    }
+    .footer__content__title-hard {
+      background-color: black;
+      font-size: 0.75rem;
+      color: white;
+      padding: 0.75rem 4.5rem;
+      cursor: pointer;
+      font-weight: 700;
+    }
+  }
+  .footer__content__item__left-top {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .footer__content__item__right__input-top {
+    margin-bottom: 1rem;
+  }
+  .footer {
+    background-color: white;
+  }
+  .footer__content__main__title__icon-col {
+    margin-bottom: 1rem;
+  }
+  .footer__content__main__title__center__parent__appstore__text-col {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+
+    flex-direction: column;
+    div {
+      display: flex;
+      justify-content: flex-start;
+      align-content: center;
+      width: 100%;
+    }
+  }
+  .footer__content__main__title__center-col {
+    margin-bottom: 2rem;
+  }
+  .footer__content__main__right__col__img-col {
+    margin-bottom: 2rem;
+  }
+  .footer__content__bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin-bottom: 2rem;
+    width: 100%;
+    flex-direction: column;
+    div {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      width: 100%;
+    }
+  }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+  .footer__content-hard {
+    display: flex;
+    z-index: 99999;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    .footer__content__back-hard {
+      font-size: 0.75rem;
+
+      margin-left: 1.75rem;
+      width: 2.5rem;
+      cursor: pointer;
+
+      div {
+        color: black;
+      }
+    }
+    .footer__content__title-hard {
+      background-color: black;
+      font-size: 0.75rem;
+      color: white;
+      padding: 0.75rem 4.5rem;
+      cursor: pointer;
+      font-weight: 700;
+    }
+  }
+  .footer__content__item__left-top {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .footer__content__item__right__input-top {
+    margin-bottom: 1rem;
+  }
+  .footer {
+    background-color: white;
+  }
+  .footer__content__main__title__icon-col {
+    margin-bottom: 1rem;
+  }
+  .footer__content__main__title__center__parent__appstore__text-col {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+
+    flex-direction: column;
+    div {
+      display: flex;
+      justify-content: flex-start;
+      align-content: center;
+      width: 100%;
+    }
+  }
+  .footer__content__main__title__center-col {
+    margin-bottom: 2rem;
+  }
+  .footer__content__main__right__col__img-col {
+    margin-bottom: 2rem;
+  }
+  .footer__content__bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin-bottom: 2rem;
+    width: 100%;
+    flex-direction: column;
+    div {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      width: 100%;
+    }
+  }
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+}
+.footer__content__main__img-col {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

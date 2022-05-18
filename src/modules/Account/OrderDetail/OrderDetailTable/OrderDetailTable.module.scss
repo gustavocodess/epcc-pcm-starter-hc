@@ -1,0 +1,42 @@
+@import "../../../../theme/template.scss";
+
+.order-detail-table {
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+  font-size: 16px;
+  margin-top: 15px;
+  border-top: 1px solid #979797;
+
+  &-cell {
+    border-top: 1px solid #979797;
+    padding: 15px 0;
+  }
+
+  thead {
+    th {
+      padding: 13px 0;
+      width: 33.33%;
+      font-weight: bold;
+    }
+  }
+
+  .order-status {
+    display: flex;
+    align-items: center;
+
+    &__icon {
+      width: 30px;
+      height: 30px;
+      margin-right: 5px;
+    }
+
+    &__text {
+      font-weight: 500;
+    }
+  }
+}
+
+.order-status__title {
+  margin: 20px 0;
+}

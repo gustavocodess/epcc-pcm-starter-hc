@@ -1,0 +1,194 @@
+@import "../../../theme/template.scss";
+.checkout__parent__col__right__bottom {
+  @extend .flex-start-column;
+  width: 100%;
+  margin-top: 2rem;
+  border: 1px solid rgb(240, 240, 240);
+
+  .checkout__parent__col__right__bottom-title {
+    padding: 1rem;
+    font-size: 0.75rem;
+    color: black;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(240, 240, 240);
+  }
+  div {
+    @extend .flex-start;
+    width: 100%;
+  }
+}
+.checkout__parent__col__right__bottom__product {
+  padding: 1.75rem 1.25rem 1.75rem 1rem;
+  display: flex;
+  justify-content: flex-start;
+  // align-items: center;
+  width: 100%;
+  .checkout__parent__col__right__bottom__product-right {
+    @extend .flex-between-column;
+    margin-left: 1rem;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    .checkout__parent__col__right__bottom__product__parent-right {
+      display: flex;
+      justify-content: flex-start;
+      align-content: flex-start;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      .checkout__parent__col__right__bottom__product__title-right {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        color: black;
+        font-size: 0.75rem;
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+        text-align: left;
+      }
+      .checkout__parent__col__right__bottom__product__des-right {
+        text-align: left;
+        width: 100%;
+        color: black;
+        font-size: 0.75rem;
+        margin-bottom: 0.5rem;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        display: -webkit-box !important;
+      }
+    }
+    .checkout__parent__col__right__bottom__product__select-right {
+      @extend .flex-between;
+      width: 100%;
+
+      .checkout__parent__col__right__bottom__product__select__price-right {
+        color: black;
+        font-weight: 700;
+        font-size: 0.75rem;
+
+        padding-left: 1.25rem;
+        @extend .flex-end;
+        width: 100%;
+      }
+    }
+  }
+  .checkout__parent__col__right__bottom__product-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.address {
+  @extend .flex-start-column;
+  width: 100%;
+  padding: 0.5rem 2rem;
+  border: 1px solid #dddddd;
+  margin: 1rem 0rem;
+  .address__bottom {
+    @extend .flex-start-column;
+    width: 100%;
+    margin-top: 1.5rem;
+    .address__bottom__title {
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+      color: black;
+      font-weight: 700;
+    }
+    & > div {
+      @extend .flex-start;
+      columns: black;
+      font-size: 0.75rem;
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+  }
+  .address__row {
+    @extend .flex-between;
+    width: 100%;
+    .address__row__col {
+      width: 100%;
+      .address__row__col__right {
+        color: black;
+        font-size: 0.75rem;
+        width: 100%;
+        padding-bottom: 0.25rem;
+        @extend .flex-start;
+      }
+      .address__row__col-left {
+        @extend .flex-start-column;
+        width: 100%;
+
+        div {
+          color: black;
+          font-size: 0.75rem;
+          width: 100%;
+          padding-bottom: 0.25rem;
+          @extend .flex-start;
+        }
+      }
+    }
+  }
+  &__change {
+    margin-left: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
+.root_modal {
+  height: 75vh;
+  overflow-y: scroll;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
+.root {
+  $this: &;
+  text-align: center;
+  width: 100%;
+  p {
+    margin-bottom: 1rem;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  &__sub_title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  &__button_reorder {
+    margin: 1.5rem 0rem 0.5rem;
+    width: 100%;
+    background: #ea3f6c;
+    color: white;
+  }
+  &__button_continue_shopping {
+    margin: 0.5rem 0rem;
+    width: 100%;
+    background: white;
+    border: 1px solid black;
+    color: black;
+  }
+}
+
+/* width */
+.root_modal::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.root_modal::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.root_modal::-webkit-scrollbar-thumb {
+  background: #ea3f6c;
+}

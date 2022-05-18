@@ -1,0 +1,215 @@
+{
+  "createdBy": "4FFFg0MNRJT0z0nW4uUizDHfHJV2",
+  "createdDate": 1648572533416,
+  "data": {
+    "title": "example",
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-b77bc3e4633c45489b753b6c74faeb23",
+        "component": {
+          "name": "Custom Product Box",
+          "options": {
+            "product": {
+              "@type": "@builder.io/core:Request",
+              "request": {
+                "url": "https://api.moltin.com/pcm/products/02280983-c7db-4c27-904f-e75b728fccbd",
+                "headers": {
+                  "Authorization": "Bearer b0f2dd8716d4fa78fd4574140e1aa613366c4077"
+                },
+                "method": "GET"
+              },
+              "options": {
+                "product": "02280983-c7db-4c27-904f-e75b728fccbd"
+              }
+            }
+          }
+        },
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "marginTop": "20px"
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-e8367024925d4338884163d3825a30a3",
+        "component": {
+          "name": "Columns",
+          "options": {
+            "columns": [
+              {
+                "blocks": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-74dd594b45c54699bc17130a43e82d47",
+                    "component": {
+                      "name": "Text",
+                      "options": {
+                        "text": "<p>Enter some text...</p>"
+                      }
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "alignItems": "stretch",
+                        "flexShrink": "0",
+                        "position": "relative",
+                        "marginTop": "30px",
+                        "textAlign": "center",
+                        "lineHeight": "normal",
+                        "height": "auto"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "blocks": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-f1c12ee75430494cb8ee63efb4ebc98c",
+                    "component": {
+                      "name": "Image",
+                      "options": {
+                        "image": "https://builder.io/api/v1/image/assets%2Fpwgjf0RoYWbdnJSbpBAjXNRMe9F2%2Ffb27a7c790324294af8be1c35fe30f4d?width=998",
+                        "backgroundPosition": "center",
+                        "backgroundSize": "cover",
+                        "aspectRatio": 0.7004048582995948,
+                        "lazy": true,
+                        "srcset": "https://builder.io/api/v1/image/assets%2Fpwgjf0RoYWbdnJSbpBAjXNRMe9F2%2Ffb27a7c790324294af8be1c35fe30f4d?width=100 100w, https://builder.io/api/v1/image/assets%2Fpwgjf0RoYWbdnJSbpBAjXNRMe9F2%2Ffb27a7c790324294af8be1c35fe30f4d?width=200 200w, https://builder.io/api/v1/image/assets%2Fpwgjf0RoYWbdnJSbpBAjXNRMe9F2%2Ffb27a7c790324294af8be1c35fe30f4d?width=400 400w, https://builder.io/api/v1/image/assets%2Fpwgjf0RoYWbdnJSbpBAjXNRMe9F2%2Ffb27a7c790324294af8be1c35fe30f4d?width=800 800w, https://builder.io/api/v1/image/assets%2Fpwgjf0RoYWbdnJSbpBAjXNRMe9F2%2Ffb27a7c790324294af8be1c35fe30f4d?width=1200 1200w, https://builder.io/api/v1/image/assets%2Fpwgjf0RoYWbdnJSbpBAjXNRMe9F2%2Ffb27a7c790324294af8be1c35fe30f4d?width=1600 1600w, https://builder.io/api/v1/image/assets%2Fpwgjf0RoYWbdnJSbpBAjXNRMe9F2%2Ffb27a7c790324294af8be1c35fe30f4d?width=2000 2000w, https://builder.io/api/v1/image/assets%2Fpwgjf0RoYWbdnJSbpBAjXNRMe9F2%2Ffb27a7c790324294af8be1c35fe30f4d?width=998 998w, https://builder.io/api/v1/image/assets%2Fpwgjf0RoYWbdnJSbpBAjXNRMe9F2%2Ffb27a7c790324294af8be1c35fe30f4d?width=638 638w, https://builder.io/api/v1/image/assets%2Fpwgjf0RoYWbdnJSbpBAjXNRMe9F2%2Ffb27a7c790324294af8be1c35fe30f4d?width=990 990w",
+                        "sizes": "(max-width: 638px) 100vw, (max-width: 998px) 100vw, 71vw"
+                      }
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "alignItems": "stretch",
+                        "flexShrink": "0",
+                        "position": "relative",
+                        "marginTop": "30px",
+                        "textAlign": "center",
+                        "lineHeight": "normal",
+                        "height": "auto",
+                        "minHeight": "20px",
+                        "minWidth": "20px",
+                        "overflow": "hidden"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-41b6c320354a4dd09ce492d562584ba0",
+                    "component": {
+                      "name": "Text",
+                      "options": {
+                        "text": "<p>Enter some text...</p>"
+                      }
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "alignItems": "stretch",
+                        "flexShrink": "0",
+                        "position": "relative",
+                        "marginTop": "30px",
+                        "textAlign": "center",
+                        "lineHeight": "normal",
+                        "height": "auto"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "space": 20,
+            "stackColumnsAt": "tablet"
+          }
+        },
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "marginTop": "20px"
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-05562e3a478c4bc99cb4bcfc1ca105b6",
+        "component": {
+          "name": "Custom Product Grid",
+          "options": {
+            "products list": [
+              "16992e1e-0e97-4181-9782-a39f1a7426ff",
+              "63f38142-f326-4bc2-b28e-a8b519fba901"
+            ]
+          }
+        },
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "marginTop": "20px"
+          }
+        }
+      }
+    ],
+    "url": "/example",
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    }
+  },
+  "id": "e1d94ae58bc84547996fd39bc8d5c7e0",
+  "lastUpdatedBy": "4FFFg0MNRJT0z0nW4uUizDHfHJV2",
+  "meta": {
+    "hasLinks": false,
+    "kind": "page",
+    "shopifyDomain": "https://builder-ecom.myshopify.com",
+    "needsHydration": false
+  },
+  "modelId": "cf7f053734da4ecda10a8cbfebde458c",
+  "name": "example",
+  "published": "published",
+  "query": [
+    {
+      "@type": "@builder.io/core:Query",
+      "operator": "is",
+      "property": "urlPath",
+      "value": "/example"
+    }
+  ],
+  "testRatio": 1,
+  "variations": {},
+  "lastUpdated": 1648582190184,
+  "screenshot": "https://cdn.builder.io/api/v1/image/assets%2F1fa6810c36c54e87bfe1a6cc0f0be906%2F4e241db8cd304839a78e2e7d01a5af61",
+  "firstPublished": 1648582190181,
+  "rev": "w6eoo27ab2",
+  "@originOrg": "1fa6810c36c54e87bfe1a6cc0f0be906",
+  "@originContentId": "ba189b6f46d547ae965d1a534ec46f4d",
+  "@originModelId": "ec5817c6b6f64c25a5fad8900fcba2bc"
+}

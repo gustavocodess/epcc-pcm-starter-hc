@@ -1,0 +1,91 @@
+{
+  "createdBy": "XNHR3dCzCSXqg2Sumbh99KBD3XC2",
+  "createdDate": 1647836119320,
+  "data": {
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-23337ec8bef4489d9bda4f59d9f3ef96",
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-832b3e72920d4bc48f2ea04b7d10237a",
+            "component": {
+              "name": "Text",
+              "options": {
+                "text": "<p>Here is some discount for women products.</p>"
+              }
+            },
+            "responsiveStyles": {
+              "large": {
+                "display": "flex",
+                "flexDirection": "column",
+                "position": "relative",
+                "flexShrink": "0",
+                "boxSizing": "border-box",
+                "lineHeight": "normal",
+                "height": "auto",
+                "textAlign": "center",
+                "marginLeft": "auto",
+                "marginRight": "auto"
+              }
+            }
+          }
+        ],
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "marginTop": "0px",
+            "height": "auto",
+            "width": "100vw",
+            "backgroundColor": "rgba(55, 28, 28, 1)",
+            "color": "rgba(255, 250, 247, 1)"
+          }
+        }
+      }
+    ],
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    }
+  },
+  "firstPublished": 1647532006344,
+  "id": "8bb07a39eeb240e0b76dd07e1c32c644",
+  "lastUpdated": 1647977489878,
+  "lastUpdatedBy": "4FFFg0MNRJT0z0nW4uUizDHfHJV2",
+  "meta": {
+    "hasLinks": false,
+    "kind": "component",
+    "originalContentId": "c8b0d98c1fdc437e93df5c2710c85bd9",
+    "shopifyDomain": "https://builder-ecom.myshopify.com",
+    "winningTest": null,
+    "needsHydration": false
+  },
+  "modelId": "3f12903376e94013b85744ed08cc713b",
+  "name": "Womans discount announcement bar",
+  "published": "published",
+  "query": [
+    {
+      "@type": "@builder.io/core:Query",
+      "operator": "is",
+      "property": "cartItems",
+      "value": "short-sleeve-floral-print-t-shirt-xl"
+    }
+  ],
+  "screenshot": "https://cdn.builder.io/api/v1/image/assets%2F1fa6810c36c54e87bfe1a6cc0f0be906%2F0e013d91a3714d249af0c8c61ccaff9a",
+  "testRatio": 1,
+  "variations": {},
+  "rev": "ummoz8gy20g",
+  "@originOrg": "1fa6810c36c54e87bfe1a6cc0f0be906",
+  "@originContentId": "b7a20cbb735b46588ed3b3c64402d2b6",
+  "@originModelId": "baff7c61965e4a3ba48c112039e14170"
+}

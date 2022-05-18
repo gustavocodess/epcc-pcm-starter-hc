@@ -1,0 +1,108 @@
+{
+  "createdBy": "XNHR3dCzCSXqg2Sumbh99KBD3XC2",
+  "createdDate": 1647885105606,
+  "data": {
+    "inputs": [],
+    "preview": {
+      "@type": "@builder.io/core:Request",
+      "options": {
+        "product": "96b849c6-e583-41f9-bdb0-0755f373079f"
+      },
+      "request": {
+        "headers": {
+          "Authorization": "Bearer 1086b9ca1f5c2e3e453a468c3271b6c485802f4b"
+        },
+        "method": "GET",
+        "url": "https://api.moltin.com/pcm/products/96b849c6-e583-41f9-bdb0-0755f373079f"
+      }
+    },
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-e5e33cd8b7f7488191d1fc74b886677c",
+        "component": {
+          "name": "Text",
+          "options": {
+            "text": "<p>Maybe you'll like this as well?</p>"
+          }
+        },
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "marginTop": "20px",
+            "lineHeight": "normal",
+            "height": "auto",
+            "textAlign": "center"
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-9f00387e747d444d9aa957c13996e3c8",
+        "component": {
+          "name": "Custom Product Box",
+          "options": {
+            "product": {
+              "@type": "@builder.io/core:Request",
+              "request": {
+                "url": "https://api.moltin.com/pcm/products/96b849c6-e583-41f9-bdb0-0755f373079f",
+                "headers": {
+                  "Authorization": "Bearer 1086b9ca1f5c2e3e453a468c3271b6c485802f4b"
+                },
+                "method": "GET"
+              },
+              "options": {
+                "product": "96b849c6-e583-41f9-bdb0-0755f373079f"
+              }
+            }
+          }
+        },
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "marginTop": "20px"
+          }
+        }
+      }
+    ],
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    }
+  },
+  "id": "a4a0863ded884f48bca5874b293713f6",
+  "lastUpdatedBy": "4FFFg0MNRJT0z0nW4uUizDHfHJV2",
+  "meta": {
+    "hasLinks": false,
+    "kind": "component",
+    "shopifyDomain": "https://builder-ecom.myshopify.com",
+    "needsHydration": false
+  },
+  "modelId": "ccf98c61927b4d33957b6973a2bc67de",
+  "name": "Sample product extra info",
+  "published": "published",
+  "query": [],
+  "testRatio": 1,
+  "variations": {},
+  "lastUpdated": 1649272999804,
+  "firstPublished": 1647885135471,
+  "screenshot": "https://cdn.builder.io/api/v1/image/assets%2F1fa6810c36c54e87bfe1a6cc0f0be906%2F197fc30dc23c4e2b812de8a7df4f5242",
+  "previewUrl": "https://epcc-pcm-starter-kit.vercel.app/product/96b849c6-e583-41f9-bdb0-0755f373079f",
+  "rev": "xavqxu7k8k",
+  "@originOrg": "1fa6810c36c54e87bfe1a6cc0f0be906",
+  "@originContentId": "cd40e493a5bf4cc5a92dc9c53aadeef4",
+  "@originModelId": "561d9b948ab94b5a8602fb628cb4857d"
+}

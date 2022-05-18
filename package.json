@@ -1,0 +1,82 @@
+{
+  "name": "epcc-ref-store",
+  "version": "3.0.0",
+  "private": true,
+  "scripts": {
+    "start": "env-cmd -f ./configs/.env.dev react-scripts start",
+    "start-internal": "env-cmd -f ./configs/.env.dev.internal react-scripts start",
+    "build": "env-cmd -f ./configs/.env.stg react-scripts build && yarn sw",
+    "build:prod": "env-cmd -f ./configs/.env.prod react-scripts build && yarn sw",
+    "test": "EXTEND_ESLINT=true react-scripts test",
+    "eject": "react-scripts eject",
+    "serve": "serve -c serve.json",
+    "pseudo-translate": "node utils/pseudo-translate.js",
+    "sw": "node build-sw.js",
+    "layer0:dev": "npm run build && layer0 dev",
+    "layer0:deploy": "npm run build:prod && layer0 deploy --site=epcc-ref-store --team=elasticpath-9k --environment=default"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@builder.io/react": "^1.1.50",
+    "@builder.io/widgets": "^1.2.21",
+    "@moltin/sdk": "^10.1.0",
+    "@reduxjs/toolkit": "^1.6.2",
+    "@stripe/react-stripe-js": "^1.6.0",
+    "@stripe/stripe-js": "^1.21.1",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.20",
+    "@types/react-router-dom": "^5.1.5",
+    "antd": "^4.16.13",
+    "app-localizer": "^1.2.2",
+    "axios": "^0.23.0",
+    "css-reset-and-normalize": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "formik": "^2.1.4",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-axe": "^3.5.2",
+    "react-cool-onclickoutside": "^1.5.2",
+    "react-detect-offline": "^2.4.0",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.5",
+    "react-responsive": "^9.0.0-beta.4",
+    "react-responsive-modal": "^4.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-script-hook": "^1.1.1",
+    "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
+    "redux-persist": "^6.0.0",
+    "serve": "^11.3.1",
+    "sharethis-reactjs": "^1.6.0",
+    "slick-carousel": "^1.8.1",
+    "typescript": "^3.7.3",
+    "workbox-build": "^5.1.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@layer0/cli": "^4.10.1",
+    "@layer0/core": "^4.10.1",
+    "@layer0/devtools": "^4.10.1",
+    "@layer0/prefetch": "^4.10.1",
+    "@types/react-responsive": "^8.0.4",
+    "@types/react-slick": "^0.23.7",
+    "env-cmd": "^10.1.0"
+  }
+}

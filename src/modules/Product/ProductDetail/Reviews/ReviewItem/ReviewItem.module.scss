@@ -1,0 +1,47 @@
+.root {
+  margin: {
+    bottom: 3.5rem;
+  }
+  $this: &;
+  &__user {
+    color: #979797;
+    #{$this}__date,
+    #{$this}__account,
+    #{$this}__verified {
+      line-height: 32px;
+      #{$this}__dot {
+        display: inline-block;
+        margin: 0rem 0.5rem;
+        width: 6px;
+        height: 6px;
+        border-radius: 3px;
+        background-color: #d8d8d8;
+      }
+    }
+
+    #{$this}__verified {
+      #{$this}__icon {
+        vertical-align: middle;
+        margin: {
+          right: 0.5rem;
+        }
+      }
+    }
+  }
+
+  &__content {
+    #{$this}__title {
+      color: #010101;
+      font: {
+        weight: bold;
+      }
+      margin: {
+        left: 1rem;
+      }
+    }
+    #{$this}__comment {
+      padding: 1rem 0rem;
+      color: #010101;
+    }
+  }
+}

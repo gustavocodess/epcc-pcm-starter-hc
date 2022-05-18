@@ -1,0 +1,911 @@
+@import "./../../theme/template.scss";
+.account__parent {
+  width: 100%;
+  @extend .flex-center-column;
+  margin: 1.5rem 0;
+
+  .account {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    width: 100%;
+    .account__col__bottom {
+      width: 100%;
+
+      margin-top: 3rem;
+      @extend .flex-start-column;
+      .account__col__center {
+        @extend .flex-start-column;
+
+        border: 1px solid rgb(186, 185, 186);
+        width: 100%;
+
+        .account__col__center__row {
+          @extend .flex-start;
+          width: 100%;
+          .account__col__center__row__col__main-right {
+            width: 100%;
+            height: 8rem;
+            margin: 1.25rem 1.5rem;
+            border-right: 2px solid rgb(195, 195, 195);
+            .account__col__center__row__col__membership {
+              @extend .flex-start-column;
+              height: 100%;
+              margin-top: 3.25rem;
+
+              width: 100%;
+
+              .account__col__center__row__col__membership-title {
+                font-weight: 700;
+              }
+              div {
+                margin-bottom: 0.25rem;
+
+                color: black;
+                font-size: 0.75rem;
+                @extend .flex-start;
+                width: 100%;
+              }
+            }
+            .account__col__center__row__col-right {
+              @extend .flex-start-column;
+              padding: 1.25rem 1.5rem;
+              width: 100%;
+
+              div {
+                color: black;
+                @extend .flex-start;
+                width: 100%;
+                font-size: 0.75rem;
+                margin-bottom: 0.25rem;
+              }
+            }
+            .account__col__center__row__col-left {
+              @extend .flex-start-column;
+              padding: 1.25rem 1.5rem;
+              width: 100%;
+
+              div {
+                color: black;
+                font-size: 0.75rem;
+
+                @extend .flex-start;
+                margin-bottom: 0.25rem;
+                font-weight: 700;
+              }
+            }
+          }
+          .account__col__center__row__col {
+            width: 100%;
+            .account__col__center__row__col__point {
+              @extend .flex-start;
+              padding: 1.25rem 0;
+
+              width: 100%;
+              .account__col__center__row__col__point__col {
+                width: 100%;
+                .account__col__center__row__col__point__col__left-right {
+                  @extend .flex-center-column;
+                  width: 100%;
+                  .account__col__center__row__col__point__col__left-point {
+                    margin-left: 0.25rem;
+                    color: black;
+                    font-size: 0.75rem;
+                  }
+                  .account__col__center__row__col__point__col__left__number {
+                    font-size: 0.75rem;
+                    margin-bottom: 0.5rem;
+                    color: black;
+                  }
+                }
+                .account__col__center__row__col__point__col__left {
+                  @extend .flex-center-column;
+                  width: 100%;
+                  .account__col__center__row__col__point__col__left-point {
+                    margin-left: 0.25rem;
+                    color: black;
+                    font-size: 0.75rem;
+                  }
+                  .account__col__center__row__col__point__col__left__number {
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: black;
+                  }
+                }
+              }
+            }
+            .account__col__center__row__col__membership {
+              @extend .flex-start-column;
+              padding: 1.25rem 1.5rem;
+
+              width: 100%;
+
+              .account__col__center__row__col__membership-title {
+                font-weight: 700;
+              }
+              div {
+                margin-bottom: 0.25rem;
+
+                color: black;
+                font-size: 0.75rem;
+                @extend .flex-start;
+                width: 100%;
+              }
+            }
+            .account__col__center__row__col-right {
+              @extend .flex-start-column;
+              padding: 1.25rem 1.5rem;
+              width: 100%;
+
+              div {
+                color: black;
+                @extend .flex-start;
+                width: 100%;
+                font-size: 0.75rem;
+                margin-bottom: 0.25rem;
+              }
+            }
+            .account__col__center__row__col-left {
+              @extend .flex-start-column;
+              padding: 1.25rem 1.5rem;
+              width: 100%;
+
+              div {
+                color: black;
+                @extend .flex-start;
+                width: 100%;
+                font-size: 0.75rem;
+                margin-bottom: 0.25rem;
+                font-weight: 700;
+              }
+            }
+          }
+        }
+        .account__col__center__date-bottom {
+          @extend .flex-start;
+          width: 100%;
+          .account__col__center__date__col-bottom {
+            width: 100%;
+            color: black;
+            font-weight: 700;
+            margin: 0.25rem 0;
+            font-size: 0.75rem;
+          }
+          .account__col__center__date__col__center-bottom {
+            width: 100%;
+            color: black;
+            font-weight: 700;
+            margin: 0.25rem 0.75rem 0 0.5rem;
+            font-size: 0.75rem;
+          }
+        }
+        .account__col__center__parent-bottom {
+          width: 100%;
+          @extend .flex-start-column;
+          padding-bottom: 1rem;
+
+          .account__col__center-bottom {
+            @extend .flex-start-column;
+            width: 100%;
+            padding: 1rem 1.25rem 0 1.25rem;
+
+            .account__col__center__right-bottom {
+              display: flex;
+              justify-content: space-between;
+              // align-content: center;
+              width: 100%;
+              .account__col__center__right__col-bottom {
+                width: 100%;
+                .account__col__center__right__col__star-bottom {
+                  @extend .flex-center-column;
+                  width: 100%;
+
+                  .account__col__center__right__col__star__top-bottom {
+                    @extend .flex-center;
+                    width: 100%;
+                  }
+                  .account__col__center__right__col__star__btn-bottom {
+                    color: black;
+                    font-size: 0.75rem;
+                    cursor: pointer;
+                    background-color: white;
+                    padding: 0.25rem 1rem;
+                    margin-top: 1rem;
+                    border: 1px solid rgb(191, 190, 190);
+                  }
+                  .account__col__center__right__col__star__top__item-bottom {
+                    margin-right: 0.25rem;
+                    font-size: 0.75rem;
+                    color: rgb(152, 151, 151);
+                  }
+                  div {
+                    @extend .flex-center;
+                    width: 100%;
+                  }
+                }
+                .account__col__center__right__col__img-bottom {
+                  width: 4.25rem;
+                  height: 5rem;
+                  object-fit: contain;
+                }
+                .account__col__center__right__col__center-bottom {
+                  @extend .flex-start-column;
+                  width: 100%;
+
+                  .account__col__center__right__col__center__title-bottom {
+                    color: black;
+                    font-weight: 700;
+                  }
+                  div {
+                    @extend .flex-start;
+                    line-height: 1.25rem;
+                    width: 100%;
+                    font-size: 0.75rem;
+                  }
+                }
+                .account__col__center__right__col__btn-bottom {
+                  @extend .flex-start-column;
+                  width: 100%;
+
+                  .account__col__center__right__col__btn__add-bottom {
+                    @extend .flex-center;
+                    width: 100%;
+                    font-size: 0.75rem;
+
+                    color: white;
+                    cursor: pointer;
+                    padding: 0.5rem 1rem;
+                    background-color: rgb(234, 63, 108);
+                  }
+                  .account__col__center__right__col__btn__remove-bottom {
+                    @extend .flex-center;
+                    width: 100%;
+                    font-size: 0.75rem;
+                    border: 1px solid rgb(214, 213, 213);
+                    color: black;
+                    cursor: pointer;
+                    margin-top: 0.5rem;
+                    padding: 0.5rem 1rem;
+                    background-color: white;
+                  }
+                }
+              }
+            }
+            .account__col__center__main-bottom {
+              @extend .flex-start;
+              width: 100%;
+              .account__col__center__main__col-bottom {
+                width: 100%;
+              }
+              div {
+                font-size: 0.75rem;
+                color: black;
+                margin-right: 2rem;
+              }
+            }
+            .account__col__center__rx-bottom {
+              text-decoration: underline;
+              color: rgb(148, 148, 148);
+            }
+            .account__col__center__img-bottom {
+              width: 5rem;
+              height: 5rem;
+              margin-bottom: 0.5rem;
+              object-fit: contain;
+            }
+            div {
+              @extend .flex-start;
+
+              width: 100%;
+              font-size: 0.75rem;
+            }
+          }
+        }
+        .account__col__center-bottom {
+          @extend .flex-start-column;
+          width: 100%;
+          padding: 1rem 1.25rem 1.5rem 1.25rem;
+
+          .account__col__center__right-bottom {
+            display: flex;
+            justify-content: space-between;
+            // align-content: center;
+            width: 100%;
+            .account__col__center__right__col-bottom {
+              width: 100%;
+              .account__col__center__right__col__center-bottom {
+                @extend .flex-start-column;
+                width: 100%;
+
+                .account__col__center__right__col__center__title-bottom {
+                  color: black;
+                  font-weight: 700;
+                }
+                div {
+                  @extend .flex-start;
+                  line-height: 1.25rem;
+                  width: 100%;
+                  font-size: 0.75rem;
+                }
+              }
+              .account__col__center__right__col__btn-bottom {
+                @extend .flex-start-column;
+                width: 100%;
+
+                .account__col__center__right__col__btn__add-bottom {
+                  @extend .flex-center;
+                  width: 100%;
+                  font-size: 0.75rem;
+
+                  color: white;
+                  cursor: pointer;
+                  padding: 0.5rem 1rem;
+                  background-color: rgb(234, 63, 108);
+                }
+                .account__col__center__right__col__btn__remove-bottom {
+                  @extend .flex-center;
+                  width: 100%;
+                  font-size: 0.75rem;
+                  border: 1px solid rgb(214, 213, 213);
+                  color: black;
+                  cursor: pointer;
+                  margin-top: 0.5rem;
+                  padding: 0.5rem 1rem;
+                  background-color: white;
+                }
+              }
+            }
+          }
+          .account__col__center__main-bottom {
+            @extend .flex-start;
+            width: 100%;
+            .account__col__center__main__col-bottom {
+              width: 100%;
+            }
+            div {
+              font-size: 0.75rem;
+              color: black;
+              margin-right: 2rem;
+            }
+          }
+          .account__col__center__rx-bottom {
+            text-decoration: underline;
+            color: rgb(148, 148, 148);
+          }
+          .account__col__center__img-bottom {
+            width: 5rem;
+            height: 5rem;
+            margin-bottom: 0.5rem;
+            object-fit: contain;
+          }
+          div {
+            @extend .flex-start;
+
+            width: 100%;
+            font-size: 0.75rem;
+          }
+        }
+        .account__col__center__title {
+          @extend .flex-start;
+          padding: 0.5rem 1.25rem;
+          border-bottom: 1px solid rgb(186, 185, 186);
+          width: 100%;
+          font-size: 1.25rem;
+          color: black;
+          font-weight: 700;
+        }
+      }
+      .account__col-left {
+        @extend .flex-start-column;
+        width: 100%;
+
+        .account__col__title-left {
+          @extend .flex-start;
+          font-weight: 700;
+
+          color: black;
+          font-size: 0.75rem;
+          cursor: pointer;
+          margin-bottom: 1.25rem;
+          width: 100%;
+        }
+        .account__col__parent-left {
+          @extend .flex-start;
+          width: 100%;
+          .account__col__normal-left {
+            @extend .flex-start;
+            color: black;
+            font-size: 0.75rem;
+            cursor: pointer;
+            margin-bottom: 1.25rem;
+          }
+          .account__col__normal__active-left {
+            @extend .flex-start;
+            color: black;
+            font-size: 0.75rem;
+            cursor: pointer;
+            margin-bottom: 1.25rem;
+
+            border-bottom: 2px solid rgb(237, 105, 142);
+            padding-bottom: 0.25rem;
+          }
+        }
+      }
+    }
+    .account__col {
+      width: 100%;
+      @extend .flex-start-column;
+      .account__col__center {
+        @extend .flex-start-column;
+
+        border: 1px solid rgb(186, 185, 186);
+        width: 100%;
+
+        .account__col__center__row {
+          @extend .flex-start;
+          width: 100%;
+          .account__col__center__row__col__main-right {
+            width: 100%;
+            height: 8rem;
+            margin: 1.25rem 1.5rem;
+            border-right: 2px solid rgb(195, 195, 195);
+            .account__col__center__row__col__membership {
+              @extend .flex-start-column;
+              height: 100%;
+              margin-top: 3.25rem;
+
+              width: 100%;
+
+              .account__col__center__row__col__membership-title {
+                font-weight: 700;
+              }
+              div {
+                margin-bottom: 0.25rem;
+
+                color: black;
+                font-size: 0.75rem;
+                @extend .flex-start;
+                width: 100%;
+              }
+            }
+            .account__col__center__row__col-right {
+              @extend .flex-start-column;
+              padding: 1.25rem 1.5rem;
+              width: 100%;
+
+              div {
+                color: black;
+                @extend .flex-start;
+                width: 100%;
+                font-size: 0.75rem;
+                margin-bottom: 0.25rem;
+              }
+            }
+            .account__col__center__row__col-left {
+              @extend .flex-start-column;
+              padding: 1.25rem 1.5rem;
+              width: 100%;
+
+              div {
+                color: black;
+                font-size: 0.75rem;
+                @extend .flex-start;
+                margin-bottom: 0.25rem;
+                font-weight: 700;
+              }
+            }
+          }
+          .account__col__center__row__col {
+            width: 100%;
+            .account__col__center__row__col__point {
+              @extend .flex-start;
+              padding: 1.25rem 0;
+
+              width: 100%;
+              .account__col__center__row__col__point__col {
+                width: 100%;
+                .account__col__center__row__col__point__col__left-right {
+                  @extend .flex-center-column;
+                  width: 100%;
+                  .account__col__center__row__col__point__col__left-point {
+                    margin-left: 0.25rem;
+                    color: black;
+                    font-size: 0.75rem;
+                  }
+                  .account__col__center__row__col__point__col__left__number {
+                    font-size: 0.75rem;
+                    margin-bottom: 0.5rem;
+                    color: black;
+                  }
+                }
+                .account__col__center__row__col__point__col__left {
+                  @extend .flex-center-column;
+                  width: 100%;
+                  .account__col__center__row__col__point__col__left-point {
+                    margin-left: 0.25rem;
+                    color: black;
+                    font-size: 0.75rem;
+                  }
+                  .account__col__center__row__col__point__col__left__number {
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: black;
+                  }
+                }
+              }
+            }
+            .account__col__center__row__col__membership {
+              @extend .flex-start-column;
+              padding: 1.25rem 1.5rem;
+
+              width: 100%;
+
+              .account__col__center__row__col__membership-title {
+                font-weight: 700;
+              }
+              div {
+                margin-bottom: 0.25rem;
+
+                color: black;
+                font-size: 0.75rem;
+                @extend .flex-start;
+                width: 100%;
+              }
+            }
+            .account__col__center__row__col-right {
+              @extend .flex-start-column;
+              padding: 1.25rem 1.5rem;
+              width: 100%;
+
+              div {
+                color: black;
+                @extend .flex-start;
+                width: 100%;
+                font-size: 0.75rem;
+                margin-bottom: 0.25rem;
+              }
+            }
+            .account__col__center__row__col-left {
+              @extend .flex-start-column;
+              padding: 1.25rem 1.5rem;
+              width: 100%;
+
+              div {
+                color: black;
+                @extend .flex-start;
+                width: 100%;
+                font-size: 0.75rem;
+                margin-bottom: 0.25rem;
+                font-weight: 700;
+              }
+            }
+          }
+        }
+        .account__col__center__date-bottom {
+          @extend .flex-start;
+          width: 100%;
+          .account__col__center__date__col-bottom {
+            width: 100%;
+            color: black;
+            font-weight: 700;
+            margin: 0.25rem 0;
+            font-size: 0.75rem;
+          }
+          .account__col__center__date__col__center-bottom {
+            width: 100%;
+            color: black;
+            font-weight: 700;
+            margin: 0.25rem 0.75rem 0 0.5rem;
+            font-size: 0.75rem;
+          }
+        }
+        .account__col__center__parent-bottom {
+          width: 100%;
+          @extend .flex-start-column;
+          padding-bottom: 1rem;
+
+          .account__col__center-bottom {
+            @extend .flex-start-column;
+            width: 100%;
+            padding: 1rem 1.25rem 0 1.25rem;
+
+            .account__col__center__right-bottom {
+              display: flex;
+              justify-content: space-between;
+              // align-content: center;
+              width: 100%;
+              .account__col__center__right__col-bottom {
+                width: 100%;
+                .account__col__center__right__col__star-bottom {
+                  @extend .flex-center-column;
+                  width: 100%;
+
+                  .account__col__center__right__col__star__top-bottom {
+                    @extend .flex-center;
+                    width: 100%;
+                  }
+                  .account__col__center__right__col__star__btn-bottom {
+                    color: black;
+                    font-size: 0.75rem;
+                    cursor: pointer;
+                    background-color: white;
+                    padding: 0.25rem 1rem;
+                    margin-top: 1rem;
+                    border: 1px solid rgb(191, 190, 190);
+                  }
+                  .account__col__center__right__col__star__top__item-bottom {
+                    margin-right: 0.25rem;
+                    font-size: 0.75rem;
+                    color: rgb(152, 151, 151);
+                  }
+                  div {
+                    @extend .flex-center;
+                    width: 100%;
+                  }
+                }
+                .account__col__center__right__col__img-bottom {
+                  width: 4.25rem;
+                  height: 5rem;
+                  object-fit: contain;
+                }
+                .account__col__center__right__col__center-bottom {
+                  @extend .flex-start-column;
+                  width: 100%;
+
+                  .account__col__center__right__col__center__title-bottom {
+                    color: black;
+                    font-weight: 700;
+                  }
+                  div {
+                    @extend .flex-start;
+                    line-height: 1.25rem;
+                    width: 100%;
+                    font-size: 0.75rem;
+                  }
+                }
+                .account__col__center__right__col__btn-bottom {
+                  @extend .flex-start-column;
+                  width: 100%;
+
+                  .account__col__center__right__col__btn__add-bottom {
+                    @extend .flex-center;
+                    width: 100%;
+                    font-size: 0.75rem;
+
+                    color: white;
+                    cursor: pointer;
+                    padding: 0.5rem 1rem;
+                    background-color: rgb(234, 63, 108);
+                  }
+                  .account__col__center__right__col__btn__remove-bottom {
+                    @extend .flex-center;
+                    width: 100%;
+                    font-size: 0.75rem;
+                    border: 1px solid rgb(214, 213, 213);
+                    color: black;
+                    cursor: pointer;
+                    margin-top: 0.5rem;
+                    padding: 0.5rem 1rem;
+                    background-color: white;
+                  }
+                }
+              }
+            }
+            .account__col__center__main-bottom {
+              @extend .flex-start;
+              width: 100%;
+              .account__col__center__main__col-bottom {
+                width: 100%;
+              }
+              div {
+                font-size: 0.75rem;
+                color: black;
+                margin-right: 2rem;
+              }
+            }
+            .account__col__center__rx-bottom {
+              text-decoration: underline;
+              color: rgb(148, 148, 148);
+            }
+            .account__col__center__img-bottom {
+              width: 5rem;
+              height: 5rem;
+              margin-bottom: 0.5rem;
+              object-fit: contain;
+            }
+            div {
+              @extend .flex-start;
+
+              width: 100%;
+              font-size: 0.75rem;
+            }
+          }
+        }
+        .account__col__center-bottom {
+          @extend .flex-start-column;
+          width: 100%;
+          padding: 1rem 1.25rem 1.5rem 1.25rem;
+
+          .account__col__center__right-bottom {
+            display: flex;
+            justify-content: space-between;
+            // align-content: center;
+            width: 100%;
+            .account__col__center__right__col-bottom {
+              width: 100%;
+              .account__col__center__right__col__center-bottom {
+                @extend .flex-start-column;
+                width: 100%;
+
+                .account__col__center__right__col__center__title-bottom {
+                  color: black;
+                  font-weight: 700;
+                }
+                div {
+                  @extend .flex-start;
+                  line-height: 1.25rem;
+                  width: 100%;
+                  font-size: 0.75rem;
+                }
+              }
+              .account__col__center__right__col__btn-bottom {
+                @extend .flex-start-column;
+                width: 100%;
+
+                .account__col__center__right__col__btn__add-bottom {
+                  @extend .flex-center;
+                  width: 100%;
+                  font-size: 0.75rem;
+
+                  color: white;
+                  cursor: pointer;
+                  padding: 0.5rem 1rem;
+                  background-color: rgb(234, 63, 108);
+                }
+                .account__col__center__right__col__btn__remove-bottom {
+                  @extend .flex-center;
+                  width: 100%;
+                  font-size: 0.75rem;
+                  border: 1px solid rgb(214, 213, 213);
+                  color: black;
+                  cursor: pointer;
+                  margin-top: 0.5rem;
+                  padding: 0.5rem 1rem;
+                  background-color: white;
+                }
+              }
+            }
+          }
+          .account__col__center__main-bottom {
+            @extend .flex-start;
+            width: 100%;
+            .account__col__center__main__col-bottom {
+              width: 100%;
+            }
+            div {
+              font-size: 0.75rem;
+              color: black;
+              margin-right: 2rem;
+            }
+          }
+          .account__col__center__rx-bottom {
+            text-decoration: underline;
+            color: rgb(148, 148, 148);
+          }
+          .account__col__center__img-bottom {
+            width: 5rem;
+            height: 5rem;
+            margin-bottom: 0.5rem;
+            object-fit: contain;
+          }
+          div {
+            @extend .flex-start;
+
+            width: 100%;
+            font-size: 0.75rem;
+          }
+        }
+        .account__col__center__title {
+          @extend .flex-start;
+          padding: 0.5rem 1.25rem;
+          border-bottom: 1px solid rgb(186, 185, 186);
+          width: 100%;
+          font-size: 1.25rem;
+          color: black;
+          font-weight: 700;
+        }
+      }
+      .account__col-left {
+        @extend .flex-start-column;
+        width: 100%;
+
+        .account__col__title-left {
+          @extend .flex-start;
+          font-weight: 700;
+
+          color: black;
+          font-size: 0.75rem;
+          cursor: pointer;
+          margin-bottom: 1.25rem;
+          width: 100%;
+        }
+        .account__col__parent-left {
+          @extend .flex-start;
+          width: 100%;
+
+          .account__col__normal-left {
+            @extend .flex-start;
+            color: black;
+            font-size: 0.75rem;
+            cursor: pointer;
+            margin-bottom: 1.25rem;
+            transition: all 0.2s ease-out;
+            &:hover {
+              transition: all 0.2s ease-out;
+              color: rgb(234, 63, 108);
+              font-weight: bold;
+            }
+          }
+          .account__col__normal__active-left {
+            @extend .flex-start;
+            color: black;
+            font-size: 0.75rem;
+            cursor: pointer;
+            margin-bottom: 1.25rem;
+
+            border-bottom: 2px solid rgb(237, 105, 142);
+            padding-bottom: 0.25rem;
+            &:hover {
+              transition: all 0.2s ease-out;
+              color: rgb(234, 63, 108);
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.account__col__center__btn-bottom {
+  @extend .flex-center;
+  background-color: black;
+  font-weight: 700;
+  width: 100%;
+  cursor: pointer;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.75rem 1rem;
+}
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+  .account__col {
+    padding: 1rem;
+  }
+  .account__col__bottom {
+    padding: 1rem;
+  }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+  .account__col {
+    padding: 1rem;
+  }
+  .account__col__bottom {
+    padding: 1rem;
+  }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+  .account__col {
+    padding: 1rem;
+  }
+  .account__col__bottom {
+    padding: 1rem;
+  }
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+}

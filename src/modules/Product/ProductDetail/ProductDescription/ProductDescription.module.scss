@@ -1,0 +1,30 @@
+@import "src/theme/responsive.scss";
+@import "src/theme/template.scss";
+@import "src/theme/common.scss";
+
+.root {
+  $this: &;
+  margin-top: 3rem;
+}
+
+.property {
+  @extend .flex-start;
+  font-size: $sizeMedium;
+  line-height: 1.6;
+  align-items: flex-start;
+
+  &__key {
+    font-weight: bold;
+    margin-right: 5px;
+    white-space: nowrap;
+
+    &::first-letter {
+      text-transform: capitalize;
+    }
+  }
+}
+
+.details-warnings {
+  margin-top: 20px;
+  font-size: $sizeMedium;
+}

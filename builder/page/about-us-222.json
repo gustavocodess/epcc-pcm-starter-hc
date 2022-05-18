@@ -1,0 +1,834 @@
+{
+  "createdBy": "4FFFg0MNRJT0z0nW4uUizDHfHJV2",
+  "createdDate": 1649272300594,
+  "data": {
+    "customFonts": [
+      {
+        "category": "sans-serif",
+        "family": "Roboto",
+        "files": {
+          "100": "https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgWxP.ttf",
+          "300": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5vAw.ttf",
+          "500": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9vAw.ttf",
+          "700": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlvAw.ttf",
+          "900": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmYUtvAw.ttf",
+          "100italic": "https://fonts.gstatic.com/s/roboto/v18/KFOiCnqEu92Fr1Mu51QrIzc.ttf",
+          "300italic": "https://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TjARc9.ttf",
+          "500italic": "https://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ABc9.ttf",
+          "700italic": "https://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBhc9.ttf",
+          "900italic": "https://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TLBBc9.ttf",
+          "italic": "https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu52xP.ttf",
+          "regular": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Me5Q.ttf"
+        },
+        "kind": "webfonts#webfont",
+        "lastModified": "2017-10-16",
+        "subsets": [
+          "latin",
+          "greek",
+          "greek-ext",
+          "latin-ext",
+          "cyrillic",
+          "vietnamese",
+          "cyrillic-ext"
+        ],
+        "variants": [
+          "100",
+          "100italic",
+          "300",
+          "300italic",
+          "regular",
+          "italic",
+          "500",
+          "500italic",
+          "700",
+          "700italic",
+          "900",
+          "900italic"
+        ],
+        "version": "v18"
+      }
+    ],
+    "title": "about-us-222",
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-8017084a794e4d86b5d9e124d7db4831",
+        "component": {
+          "name": "Columns",
+          "options": {
+            "columns": [
+              {
+                "blocks": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-4fe99619e59a4e2e898db6ea2ee412fd",
+                    "component": {
+                      "name": "Image",
+                      "options": {
+                        "image": "https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2F58ecf77d848f49c8b25d6cec90487212?width=998&height=1000",
+                        "backgroundPosition": "center",
+                        "backgroundSize": "cover",
+                        "aspectRatio": 0.7004048582995948,
+                        "lazy": false,
+                        "srcset": "https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2F58ecf77d848f49c8b25d6cec90487212?width=100&height=1000 100w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2F58ecf77d848f49c8b25d6cec90487212?width=200&height=1000 200w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2F58ecf77d848f49c8b25d6cec90487212?width=400&height=1000 400w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2F58ecf77d848f49c8b25d6cec90487212?width=800&height=1000 800w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2F58ecf77d848f49c8b25d6cec90487212?width=1200&height=1000 1200w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2F58ecf77d848f49c8b25d6cec90487212?width=1600&height=1000 1600w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2F58ecf77d848f49c8b25d6cec90487212?width=2000&height=1000 2000w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2F58ecf77d848f49c8b25d6cec90487212?width=998&height=1000 998w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2F58ecf77d848f49c8b25d6cec90487212?width=638&height=1000 638w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2F58ecf77d848f49c8b25d6cec90487212?width=982&height=1000 982w",
+                        "sizes": "(max-width: 638px) 100vw, (max-width: 998px) 100vw, 71vw"
+                      }
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "alignItems": "stretch",
+                        "flexShrink": "0",
+                        "position": "relative",
+                        "textAlign": "center",
+                        "lineHeight": "normal",
+                        "height": "auto"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "layerName": "Centered Box",
+                    "id": "builder-00fd7eafa217455d92cccb984f98589d",
+                    "children": [
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "layerName": "Title",
+                        "id": "builder-96cc2d27ca39497a82e4be16203a6d46",
+                        "component": {
+                          "name": "Text",
+                          "options": {
+                            "text": "<p>Something Great to Say</p>"
+                          }
+                        },
+                        "responsiveStyles": {
+                          "large": {
+                            "display": "flex",
+                            "flexDirection": "column",
+                            "alignItems": "stretch",
+                            "flexShrink": "0",
+                            "position": "relative",
+                            "marginTop": "-1.65625px",
+                            "textAlign": "center",
+                            "lineHeight": "normal",
+                            "height": "auto",
+                            "fontSize": "28px"
+                          },
+                          "medium": {
+                            "marginTop": "1.34375px",
+                            "textAlign": "center"
+                          },
+                          "small": {
+                            "fontSize": "25px"
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "layerName": "Subtitle",
+                        "id": "builder-7695ba773b8f436cb8cc7d51f2d9de9b",
+                        "component": {
+                          "name": "Text",
+                          "options": {
+                            "text": "<p>Some more great things to elaborate on that wonderful things you have to tell your audience</p>"
+                          }
+                        },
+                        "responsiveStyles": {
+                          "large": {
+                            "display": "flex",
+                            "flexDirection": "column",
+                            "alignItems": "stretch",
+                            "flexShrink": "0",
+                            "position": "relative",
+                            "marginTop": "23.59375px",
+                            "textAlign": "center",
+                            "lineHeight": "normal",
+                            "height": "auto",
+                            "fontSize": "18px",
+                            "color": "rgba(86, 86, 86, 1)"
+                          },
+                          "medium": {
+                            "textAlign": "center"
+                          },
+                          "small": {
+                            "fontSize": "15px"
+                          }
+                        }
+                      }
+                    ],
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "alignItems": "stretch",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "9px",
+                        "marginBottom": "auto",
+                        "paddingBottom": "17px",
+                        "paddingTop": "17px"
+                      },
+                      "medium": {
+                        "paddingBottom": "49px"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "blocks": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-7b76eb115ff544f28cbb0305d0e98e57",
+                    "component": {
+                      "name": "Image",
+                      "options": {
+                        "image": "https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2Fd938526f46db4a38aa96b879f51b2df5?width=998&height=1000",
+                        "backgroundPosition": "center",
+                        "backgroundSize": "cover",
+                        "aspectRatio": 0.7004048582995948,
+                        "lazy": false,
+                        "srcset": "https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2Fd938526f46db4a38aa96b879f51b2df5?width=100&height=1000 100w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2Fd938526f46db4a38aa96b879f51b2df5?width=200&height=1000 200w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2Fd938526f46db4a38aa96b879f51b2df5?width=400&height=1000 400w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2Fd938526f46db4a38aa96b879f51b2df5?width=800&height=1000 800w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2Fd938526f46db4a38aa96b879f51b2df5?width=1200&height=1000 1200w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2Fd938526f46db4a38aa96b879f51b2df5?width=1600&height=1000 1600w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2Fd938526f46db4a38aa96b879f51b2df5?width=2000&height=1000 2000w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2Fd938526f46db4a38aa96b879f51b2df5?width=998&height=1000 998w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2Fd938526f46db4a38aa96b879f51b2df5?width=638&height=1000 638w, https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2Fd938526f46db4a38aa96b879f51b2df5?width=982&height=1000 982w",
+                        "sizes": "(max-width: 638px) 100vw, (max-width: 998px) 100vw, 71vw"
+                      }
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "alignItems": "stretch",
+                        "flexShrink": "0",
+                        "position": "relative",
+                        "textAlign": "center",
+                        "lineHeight": "normal",
+                        "height": "auto"
+                      },
+                      "medium": {
+                        "contentVisibility": "auto",
+                        "containIntrinsicSize": "699px"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "layerName": "Centered Box",
+                    "id": "builder-f46afacb11564437b2230617b5a6e025",
+                    "children": [
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "layerName": "Title",
+                        "id": "builder-405d5e02a7ec472cac01fa1965974e2d",
+                        "component": {
+                          "name": "Text",
+                          "options": {
+                            "text": "<p>Something Great to Say</p>"
+                          }
+                        },
+                        "responsiveStyles": {
+                          "large": {
+                            "display": "flex",
+                            "flexDirection": "column",
+                            "alignItems": "stretch",
+                            "flexShrink": "0",
+                            "position": "relative",
+                            "marginTop": "-1.65625px",
+                            "textAlign": "center",
+                            "lineHeight": "normal",
+                            "height": "auto",
+                            "fontSize": "28px"
+                          },
+                          "medium": {
+                            "marginTop": "1.34375px",
+                            "textAlign": "center"
+                          },
+                          "small": {
+                            "fontSize": "25px"
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "layerName": "Subtitle",
+                        "id": "builder-8a327e855cf84c88952212a3758bd379",
+                        "component": {
+                          "name": "Text",
+                          "options": {
+                            "text": "<p>Some more great things to elaborate on that wonderful things you have to tell your audience</p>"
+                          }
+                        },
+                        "responsiveStyles": {
+                          "large": {
+                            "display": "flex",
+                            "flexDirection": "column",
+                            "alignItems": "stretch",
+                            "flexShrink": "0",
+                            "position": "relative",
+                            "marginTop": "23.59375px",
+                            "textAlign": "center",
+                            "lineHeight": "normal",
+                            "height": "auto",
+                            "fontSize": "18px",
+                            "color": "rgba(86, 86, 86, 1)"
+                          },
+                          "medium": {
+                            "textAlign": "center"
+                          },
+                          "small": {
+                            "fontSize": "15px"
+                          }
+                        }
+                      }
+                    ],
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "alignItems": "stretch",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "9px",
+                        "marginBottom": "auto",
+                        "paddingBottom": "17px",
+                        "paddingTop": "17px"
+                      },
+                      "medium": {
+                        "paddingBottom": "49px",
+                        "contentVisibility": "auto",
+                        "containIntrinsicSize": "109px"
+                      },
+                      "small": {
+                        "contentVisibility": "auto",
+                        "containIntrinsicSize": "137px"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "space": 36,
+            "stackColumnsAt": "tablet",
+            "reverseColumnsWhenStacked": false
+          }
+        },
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "stretch",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "marginTop": "2.34375px",
+            "paddingLeft": "0px",
+            "paddingRight": "0px"
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-b11179b1952c42b1bd4ba66dc3a1e139",
+        "component": {
+          "name": "Core:Section",
+          "options": {
+            "maxWidth": null
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-559918eb93eb4e5692bcd7cc708305d4",
+            "component": {
+              "name": "Custom Code",
+              "options": {
+                "code": "<style>\n  @media screen and (max-width: 639px) {\n  .slick-prev {\n      top: 120% !important;\n      left: 30% !important;\n  }\n\n  .slick-next {\n      top: 120% !important;\n      right: 30% !important;\n  }\n  }\n\n  @media screen and (max-width: 1340px) {\n  .css-5am4q0.builder-block {\n      width: 100vw;\n      transform: translateX(-50%);\n      left: 50%;\n      padding: 0 30px 0 30px;\n  }\n\n  .css-g4p0u4.builder-block {\n      width: 100vw;\n      transform: translateX(-50%);\n      left: 50%;\n      padding: 0 30px 0 30px;\n  }\n\n  .css-1hbf805 {\n      width:  400px !important;\n      left: 50%;\n      transform: translate(-50%, 0);\n  }\n  }\n</style>\n",
+                "replaceNodes": true
+              }
+            },
+            "responsiveStyles": {
+              "large": {
+                "display": "flex",
+                "flexDirection": "column",
+                "position": "relative",
+                "flexShrink": "0",
+                "boxSizing": "border-box",
+                "marginTop": "0px"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-ab36677c3ba44eba8b3c34a8d6dab070",
+            "component": {
+              "name": "Core:Section",
+              "options": {
+                "maxWidth": 1200
+              }
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-b168593086374e11887756c01ae8dbf5",
+                "class": "text",
+                "component": {
+                  "name": "Text",
+                  "options": {
+                    "text": "<p>Why brand</p>"
+                  }
+                },
+                "responsiveStyles": {
+                  "large": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "position": "relative",
+                    "flexShrink": "0",
+                    "boxSizing": "border-box",
+                    "marginTop": "0px",
+                    "lineHeight": "49px",
+                    "height": "auto",
+                    "textAlign": "center",
+                    "fontSize": "42px",
+                    "fontFamily": "Roboto, sans-serif",
+                    "fontWeight": "bold",
+                    "color": "rgba(0, 0, 0, 1)"
+                  },
+                  "small": {
+                    "lineHeight": "33px",
+                    "fontSize": "28px"
+                  }
+                }
+              },
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-9828283d3d6840babbf2c1f637c80cb2",
+                "component": {
+                  "name": "Columns",
+                  "options": {
+                    "columns": [
+                      {
+                        "blocks": [
+                          {
+                            "@type": "@builder.io/sdk:Element",
+                            "@version": 2,
+                            "id": "builder-b87125f6271d45b5ba71b75531b9da8e",
+                            "groupLocked": true,
+                            "children": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-69d93b5be14d4352a11b5dff0640a38c",
+                                "component": {
+                                  "name": "Image",
+                                  "options": {
+                                    "image": "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=120",
+                                    "backgroundSize": "cover",
+                                    "backgroundPosition": "center",
+                                    "lazy": true,
+                                    "aspectRatio": 1,
+                                    "height": 443,
+                                    "width": 443,
+                                    "srcset": "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=120 120w",
+                                    "sizes": "(max-width: 638px) 19vw, (max-width: 998px) 13vw, 9vw"
+                                  }
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "0px",
+                                    "minHeight": "20px",
+                                    "minWidth": "20px",
+                                    "overflow": "hidden",
+                                    "width": "120px",
+                                    "height": "120px",
+                                    "borderRadius": "100px",
+                                    "marginLeft": "auto",
+                                    "marginRight": "auto"
+                                  }
+                                }
+                              },
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-3fdc2ef194824e16ab00e61a8908587f",
+                                "class": "text",
+                                "component": {
+                                  "name": "Text",
+                                  "options": {
+                                    "text": "<p>“Lorem ipsum dolor sit<br> amet, consectetur<br> adipiscing elit.”</p>\n"
+                                  }
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "alignItems": "stretch",
+                                    "flexShrink": "0",
+                                    "position": "relative",
+                                    "marginTop": "30px",
+                                    "textAlign": "center",
+                                    "lineHeight": "32px",
+                                    "height": "auto",
+                                    "color": "rgba(0, 0, 0, 1)",
+                                    "fontFamily": "Roboto, sans-serif",
+                                    "fontSize": "24px"
+                                  },
+                                  "small": {
+                                    "fontSize": "18px",
+                                    "lineHeight": "26px",
+                                    "marginBottom": "0px"
+                                  }
+                                }
+                              }
+                            ],
+                            "responsiveStyles": {
+                              "large": {
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "position": "relative",
+                                "flexShrink": "0",
+                                "boxSizing": "border-box"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "blocks": [
+                          {
+                            "@type": "@builder.io/sdk:Element",
+                            "@version": 2,
+                            "id": "builder-df1d81328402470d8fe91d7a4b66cb1a",
+                            "groupLocked": true,
+                            "children": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-927e22aa0dc74041a6eb995a98048c01",
+                                "component": {
+                                  "name": "Image",
+                                  "options": {
+                                    "image": "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=120",
+                                    "backgroundSize": "cover",
+                                    "backgroundPosition": "center",
+                                    "lazy": true,
+                                    "aspectRatio": 1,
+                                    "height": 443,
+                                    "width": 443,
+                                    "srcset": "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=120 120w",
+                                    "sizes": "(max-width: 638px) 19vw, (max-width: 998px) 13vw, 9vw"
+                                  }
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "0px",
+                                    "minHeight": "20px",
+                                    "minWidth": "20px",
+                                    "overflow": "hidden",
+                                    "width": "120px",
+                                    "height": "120px",
+                                    "borderRadius": "100px",
+                                    "marginLeft": "auto",
+                                    "marginRight": "auto"
+                                  },
+                                  "small": {
+                                    "marginTop": "20px"
+                                  }
+                                }
+                              },
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-d18fb96bd4ed4ccea891c55d978f624d",
+                                "class": "text",
+                                "component": {
+                                  "name": "Text",
+                                  "options": {
+                                    "text": "<p>“Lorem ipsum dolor sit<br> amet, consectetur<br> adipiscing elit.”</p>\n"
+                                  }
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "alignItems": "stretch",
+                                    "flexShrink": "0",
+                                    "position": "relative",
+                                    "marginTop": "30px",
+                                    "textAlign": "center",
+                                    "lineHeight": "32px",
+                                    "height": "auto",
+                                    "color": "rgba(0, 0, 0, 1)",
+                                    "fontFamily": "Roboto, sans-serif",
+                                    "fontSize": "24px"
+                                  },
+                                  "small": {
+                                    "fontSize": "18px",
+                                    "lineHeight": "26px",
+                                    "marginBottom": "0px"
+                                  }
+                                }
+                              }
+                            ],
+                            "responsiveStyles": {
+                              "large": {
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "position": "relative",
+                                "flexShrink": "0",
+                                "boxSizing": "border-box"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "blocks": [
+                          {
+                            "@type": "@builder.io/sdk:Element",
+                            "@version": 2,
+                            "id": "builder-f2d50191cff9431ca5c676efce7f909e",
+                            "groupLocked": true,
+                            "children": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-39721849ba1c46dd95b99bd07f525ec5",
+                                "component": {
+                                  "name": "Image",
+                                  "options": {
+                                    "image": "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=120",
+                                    "backgroundSize": "cover",
+                                    "backgroundPosition": "center",
+                                    "lazy": true,
+                                    "aspectRatio": 1,
+                                    "height": 443,
+                                    "width": 443,
+                                    "srcset": "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6f93ce9bdc9f48b5914e493b30f52720?width=120 120w",
+                                    "sizes": "(max-width: 638px) 19vw, (max-width: 998px) 13vw, 9vw"
+                                  }
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "0px",
+                                    "minHeight": "20px",
+                                    "minWidth": "20px",
+                                    "overflow": "hidden",
+                                    "width": "120px",
+                                    "height": "120px",
+                                    "borderRadius": "100px",
+                                    "marginLeft": "auto",
+                                    "marginRight": "auto"
+                                  },
+                                  "small": {
+                                    "marginTop": "20px"
+                                  }
+                                }
+                              },
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-5fa1241f714c453b9110c8c6f97767d0",
+                                "class": "text",
+                                "component": {
+                                  "name": "Text",
+                                  "options": {
+                                    "text": "<p>“Lorem ipsum dolor sit<br> amet, consectetur<br> adipiscing elit.”</p>\n"
+                                  }
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "alignItems": "stretch",
+                                    "flexShrink": "0",
+                                    "position": "relative",
+                                    "marginTop": "30px",
+                                    "textAlign": "center",
+                                    "lineHeight": "32px",
+                                    "height": "auto",
+                                    "color": "rgba(0, 0, 0, 1)",
+                                    "fontFamily": "Roboto, sans-serif",
+                                    "fontSize": "24px"
+                                  },
+                                  "small": {
+                                    "fontSize": "18px",
+                                    "lineHeight": "26px",
+                                    "marginBottom": "0px"
+                                  }
+                                }
+                              }
+                            ],
+                            "responsiveStyles": {
+                              "large": {
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "position": "relative",
+                                "flexShrink": "0",
+                                "boxSizing": "border-box"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "space": 20,
+                    "stackColumnsAt": "mobile"
+                  }
+                },
+                "responsiveStyles": {
+                  "large": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "position": "relative",
+                    "flexShrink": "0",
+                    "boxSizing": "border-box",
+                    "marginTop": "80px"
+                  },
+                  "small": {
+                    "marginTop": "60px"
+                  }
+                }
+              }
+            ],
+            "responsiveStyles": {
+              "large": {
+                "display": "flex",
+                "flexDirection": "column",
+                "position": "relative",
+                "flexShrink": "0",
+                "boxSizing": "border-box",
+                "marginTop": "0px",
+                "paddingLeft": "20px",
+                "paddingRight": "20px",
+                "paddingTop": "80px",
+                "paddingBottom": "80px",
+                "width": "100vw",
+                "marginLeft": "calc(50% - 50vw)",
+                "backgroundColor": "rgba(255, 255, 255, 1)"
+              },
+              "small": {
+                "paddingTop": "60px",
+                "paddingBottom": "60px"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-4e576fb6fd9c4527a5ce777094f64b37",
+            "component": {
+              "name": "Custom Product Box",
+              "options": {
+                "product": {
+                  "@type": "@builder.io/core:Request",
+                  "request": {
+                    "url": "https://api.moltin.com/pcm/products/96b849c6-e583-41f9-bdb0-0755f373079f",
+                    "headers": {
+                      "Authorization": "Bearer 1086b9ca1f5c2e3e453a468c3271b6c485802f4b"
+                    },
+                    "method": "GET"
+                  },
+                  "options": {
+                    "product": "96b849c6-e583-41f9-bdb0-0755f373079f"
+                  }
+                }
+              }
+            },
+            "responsiveStyles": {
+              "large": {
+                "display": "flex",
+                "flexDirection": "column",
+                "position": "relative",
+                "flexShrink": "0",
+                "boxSizing": "border-box",
+                "marginTop": "20px"
+              }
+            }
+          }
+        ],
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "marginTop": "0px",
+            "paddingLeft": "60px",
+            "paddingRight": "60px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "width": "100vw",
+            "marginLeft": "calc(50% - 50vw)"
+          }
+        }
+      }
+    ],
+    "url": "/about-us-222",
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    }
+  },
+  "id": "40c15a19e2334f1c995dec17681298a3",
+  "lastUpdatedBy": "4FFFg0MNRJT0z0nW4uUizDHfHJV2",
+  "meta": {
+    "hasLinks": false,
+    "kind": "page",
+    "shopifyDomain": "https://builder-ecom.myshopify.com",
+    "needsHydration": false
+  },
+  "modelId": "cf7f053734da4ecda10a8cbfebde458c",
+  "name": "about-us-222",
+  "published": "published",
+  "query": [
+    {
+      "@type": "@builder.io/core:Query",
+      "operator": "is",
+      "property": "urlPath",
+      "value": "/about-us-222"
+    }
+  ],
+  "testRatio": 1,
+  "variations": {},
+  "lastUpdated": 1649272765941,
+  "screenshot": "https://cdn.builder.io/api/v1/image/assets%2F1fa6810c36c54e87bfe1a6cc0f0be906%2F4523ccaf94064c0c9bfa1c33782dd8c0",
+  "firstPublished": 1649272676914,
+  "rev": "w6eoo27ab2",
+  "@originOrg": "1fa6810c36c54e87bfe1a6cc0f0be906",
+  "@originContentId": "d9ee3812877b4727a2d3eb08fd4a67af",
+  "@originModelId": "ec5817c6b6f64c25a5fad8900fcba2bc"
+}

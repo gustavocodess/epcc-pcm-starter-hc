@@ -1,0 +1,33 @@
+.root {
+  $this: &;
+  margin-top: 6rem;
+
+  &__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
+  &__sort-text {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 1.25rem;
+  }
+
+  &__review-container {
+    #{$this}__button {
+      padding: 0.5rem 3rem;
+      height: unset !important;
+      display: block;
+      margin: 0 auto;
+      font-weight: bold !important;
+      background-color: black;
+      color: white;
+      &:hover {
+        color: black;
+        border: 1px solid black;
+        background-color: white;
+      }
+    }
+  }
+}

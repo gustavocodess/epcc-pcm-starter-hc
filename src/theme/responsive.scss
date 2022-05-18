@@ -1,0 +1,26 @@
+$XS: 480px;
+$SM: 768px;
+$MD: 1024px;
+$XL: 1170px;
+
+// media queries
+
+@mixin Responsive($canvas, $compare) {
+  @if $canvas == XS {
+    @media only screen and ($compare-width: $XS) {
+      @content;
+    }
+  } @else if $canvas == SM {
+    @media only screen and ($compare-width: $SM) {
+      @content;
+    }
+  } @else if $canvas == MD {
+    @media only screen and ($compare-width: $MD) {
+      @content;
+    }
+  } @else if $canvas == XL {
+    @media only screen and ($compare-width: $XL) {
+      @content;
+    }
+  }
+}

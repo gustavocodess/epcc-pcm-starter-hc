@@ -1,0 +1,23 @@
+.root {
+  margin-top: 6rem;
+
+  padding: {
+    bottom: 4rem;
+  }
+  &__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  &__slider {
+    margin: 0.5rem -1rem 0rem;
+  }
+}
+
+.dots {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.25rem;
+  margin-top: 4rem;
+  background-color: #c4c3c3;
+}

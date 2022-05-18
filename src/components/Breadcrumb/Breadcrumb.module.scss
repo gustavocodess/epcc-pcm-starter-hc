@@ -1,0 +1,10 @@
+@import "./../../theme/template.scss";
+.root {
+  margin-bottom: 1.5rem;
+  @extend .flex-start;
+  &__item {
+    font-size: 14px;
+    &--active {
+    }
+  }
+}
