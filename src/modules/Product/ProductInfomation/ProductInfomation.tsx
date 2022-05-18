@@ -169,7 +169,7 @@ export const ProductInfomation: FC<ProductInformationProps> = ({
     vertical: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    focusOnSelect: true,
+    // focusOnSelect: true,
     nextArrow: <></>,
     prevArrow: <></>,
   };
@@ -209,6 +209,8 @@ export const ProductInfomation: FC<ProductInformationProps> = ({
     </Row>
     )
   }
+
+  console.log('listImage', listImage)
 
   return (
     <Row className={styles.root} align="stretch">
