@@ -19,6 +19,7 @@ export const config = {
     ? splitCompareKeys(process.env.REACT_APP_COMPARE_KEYS)
     : [],
   // endpointURL: "api.moltin.com",
+
   endpointURL: "useast.api.elasticpath.com",
   b2b: process.env.REACT_APP_B2B_ENABLE || false,
   supportedLocales: process.env.REACT_APP_SUPPORTED_LOCALES?.split(
