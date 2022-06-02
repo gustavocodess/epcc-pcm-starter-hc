@@ -38,12 +38,13 @@ export const ProductItem: FC<any> = (props) => {
               className={styles["root__product-image"]}
               src={image}
               alt="ProductList"
-              width="100%"
+              height="100%"
+              style={{ width: 'auto', margin: 'auto' }}
             />
           ) : (
             <Skeleton.Image
               className={styles["root__product-image"]}
-              style={{ width: "100%", height: "100%" }}
+              style={{ width: "auto", height: "100%" }}
             />
           )}
         </div>
@@ -113,9 +114,7 @@ export const ProductItem: FC<any> = (props) => {
         </Link>
       </Tooltip>
       <Tooltip title={sub || "Casual USB Charging Multifunctional"}>
-        <p className={styles["root__product-description"]}>
-          {sub || "Casual USB Charging Multifunctional"}
-        </p>
+        <p className={styles["root__product-description"]} dangerouslySetInnerHTML={{ __html: sub }} />
       </Tooltip>
       <Row align="middle">
         <Col span="auto">

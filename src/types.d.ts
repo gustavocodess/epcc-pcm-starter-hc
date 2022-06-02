@@ -4,3 +4,5 @@ declare module "sharethis-reactjs" {
 declare module "algolia-places-react";
 
 declare module "react-stripe-elements";
+
+declare module '@toolz/use-synchronous-state'

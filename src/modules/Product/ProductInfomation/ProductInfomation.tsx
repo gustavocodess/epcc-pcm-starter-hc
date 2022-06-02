@@ -204,13 +204,11 @@ export const ProductInfomation: FC<ProductInformationProps> = ({
     return (
       <Row className={styles.root} align="stretch">
       <p className={styles["root__category-name"]}>
-        Something went wrong with this product, please select another one.
+        Please select a product.
       </p>
     </Row>
     )
   }
-
-  console.log('listImage', listImage)
 
   return (
     <Row className={styles.root} align="stretch">
@@ -267,7 +265,7 @@ export const ProductInfomation: FC<ProductInformationProps> = ({
                 <img
                   src={image.path}
                   alt=""
-                  width="100%"
+                  height="100%"
                   className={styles["root__product-image"]}
                 />
               </div>
@@ -281,7 +279,7 @@ export const ProductInfomation: FC<ProductInformationProps> = ({
       <Col xs={24} xl={10} className={styles["root__info"]}>
         <div>
           <Tooltip title={data.description} color="black">
-            <p className={styles["root__category-name"]}>{data.description}</p>
+            <p className={styles["root__category-name"]} dangerouslySetInnerHTML={{ __html: data.description }} />
           </Tooltip>
           <h1 className={styles["root__product-name"]}>{data.name}</h1>
           <Rate disabled allowHalf defaultValue={3.5} /> 3.5 (5 reviews)

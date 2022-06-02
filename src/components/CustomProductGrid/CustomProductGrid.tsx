@@ -1,48 +1,47 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect } from 'react';
 import { List } from 'antd'
 import { getProductDetail } from 'src/modules/Product/productService';
 import { ProductItem } from 'src/modules/Product/ProductItem/ProductItem';
+import useProductGrid from 'src/hooks/productGrid';
 interface CustomProductGridProps {
   'products list': string[];
 }
 
 export const CustomProductGrid: React.FC<CustomProductGridProps> = (props) => {
-  const [productsMap, setProductsMap] = useState ({} as Record<string, moltin.CartItem>);
-  const prevMapRef = useRef({} as Record<string, moltin.CartItem>);
+  const productMap = useProductGrid()
 
   const productIdsList = props['products list']
 
   async function fetchProduct(productId: string) {
     const productData = await getProductDetail(productId);
-    const newMap = { ...prevMapRef.current, [productId]: { ...productData.data}}
-    setProductsMap(newMap)
+    productMap.add(productData?.data, productId)
   }
-
-  useEffect(() => {
-    prevMapRef.current = productsMap;
-  }, [productsMap])
 
   useEffect(() => {
     if (productIdsList && productIdsList.length) {
       productIdsList.forEach((productId) => {
-        if (!productsMap[productId]) {
+        if (!productMap.getMap()[productId]) {
           fetchProduct(productId)
         }
       })
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [productIdsList?.join(',')])
+  
 
-
-  const mapToDisplay = productsMap
-
-  Object.keys(productsMap).map(key => {
+  Object.keys(productMap.getMap()).map(key => {
     if (!productIdsList.includes(key)) {
-      delete mapToDisplay[key]
+      productMap.deleteProduct(key)
     }
   })
 
-  const productsList = productIdsList.filter(key => mapToDisplay[key]).map((key) => (mapToDisplay[key]))
+  const mapToDisplay = productMap.getMap()
+
+  const productsList = productIdsList?.filter(key => mapToDisplay[key]).map((key) => (mapToDisplay[key]))
+
+  // console.log('PRODUCTS LIST ', productsList)
+
+  // console.log('PRODUCT IDS ', productIdsList)
 
   return (
     <div>
